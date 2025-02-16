@@ -1,0 +1,1789 @@
+2025-02-16 14:27:36,087 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:27:36,087 - Node 1 started processing a task. Current load: 10.0 FLOPs (2.0000000000000002e-07%), Network load: 10.0 bytes (5e-07%),Tasks on Node: 1.
+2025-02-16 14:27:36,088 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:27:36,189 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:36,589 - Edge Device 2 generated a task requiring 200.0 FLOPs and 20.0 bytes.
+2025-02-16 14:27:36,589 - Node 2 started processing a task. Current load: 200.0 FLOPs (4.9999999999999996e-06%), Network load: 20.0 bytes (0.001%),Tasks on Node: 1.
+2025-02-16 14:27:36,589 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:27:36,790 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:37,590 - Edge Device 3 generated a task requiring 1500.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:27:37,590 - Node 3 started processing a task. Current load: 1500.0 FLOPs (9.999999999999999e-05%), Network load: 150000.0 bytes (10.0%),Tasks on Node: 1.
+2025-02-16 14:27:37,590 - Task assigned to Node 3. Processing time: 0.15 seconds.
+2025-02-16 14:27:37,741 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:38,258 - Edge Device 4 generated a task requiring 1000.0 FLOPs and 10.0 bytes.
+2025-02-16 14:27:38,258 - Node 1 started processing a task. Current load: 1000.0 FLOPs (1.9999999999999998e-05%), Network load: 10.0 bytes (5e-07%),Tasks on Node: 1.
+2025-02-16 14:27:38,258 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:27:38,360 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:38,759 - Edge Device 5 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:27:38,759 - Node 2 started processing a task. Current load: 10.0 FLOPs (2.5e-07%), Network load: 10.0 bytes (0.0005%),Tasks on Node: 1.
+2025-02-16 14:27:38,760 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:27:38,960 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:39,760 - Edge Device 6 generated a task requiring 150.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:27:39,760 - Node 3 started processing a task. Current load: 150.0 FLOPs (9.999999999999999e-06%), Network load: 150000.0 bytes (10.0%),Tasks on Node: 1.
+2025-02-16 14:27:39,760 - Task assigned to Node 3. Processing time: 0.15 seconds.
+2025-02-16 14:27:39,911 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:40,428 - Edge Device 7 generated a task requiring 10.0 FLOPs and 50000.0 bytes.
+2025-02-16 14:27:40,428 - Node 1 started processing a task. Current load: 10.0 FLOPs (2.0000000000000002e-07%), Network load: 50000.0 bytes (0.0025%),Tasks on Node: 1.
+2025-02-16 14:27:40,429 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:27:40,529 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:40,929 - Edge Device 8 generated a task requiring 20.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:27:40,929 - Node 2 started processing a task. Current load: 20.0 FLOPs (5e-07%), Network load: 100000.0 bytes (5.0%),Tasks on Node: 1.
+2025-02-16 14:27:40,930 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:27:41,130 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:41,930 - Edge Device 9 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:27:41,930 - Node 3 started processing a task. Current load: 150000000.0 FLOPs (10.0%), Network load: 150000.0 bytes (10.0%),Tasks on Node: 1.
+2025-02-16 14:27:41,930 - Task assigned to Node 3. Processing time: 0.25 seconds.
+2025-02-16 14:27:42,181 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:42,598 - Edge Device 10 generated a task requiring 100000000.0 FLOPs and 50000.0 bytes.
+2025-02-16 14:27:42,598 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (2.0%), Network load: 50000.0 bytes (0.0025%),Tasks on Node: 1.
+2025-02-16 14:27:42,599 - Task assigned to Node 1. Processing time: 0.12 seconds.
+2025-02-16 14:27:42,719 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:43,099 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:27:43,099 - Node 2 started processing a task. Current load: 10.0 FLOPs (2.5e-07%), Network load: 10.0 bytes (0.0005%),Tasks on Node: 1.
+2025-02-16 14:27:43,100 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:27:43,300 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:43,601 - Edge Device 2 generated a task requiring 200.0 FLOPs and 20.0 bytes.
+2025-02-16 14:27:43,601 - Node 3 started processing a task. Current load: 200.0 FLOPs (1.3333333333333333e-05%), Network load: 20.0 bytes (0.0013333333333333333%),Tasks on Node: 1.
+2025-02-16 14:27:43,601 - Task assigned to Node 3. Processing time: 0.15 seconds.
+2025-02-16 14:27:43,752 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:44,602 - Edge Device 3 generated a task requiring 1500.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:27:44,602 - Node 1 started processing a task. Current load: 1500.0 FLOPs (2.9999999999999997e-05%), Network load: 150000.0 bytes (0.0075%),Tasks on Node: 1.
+2025-02-16 14:27:44,602 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:27:44,703 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:45,270 - Edge Device 4 generated a task requiring 1000.0 FLOPs and 10.0 bytes.
+2025-02-16 14:27:45,270 - Node 2 started processing a task. Current load: 1000.0 FLOPs (2.4999999999999998e-05%), Network load: 10.0 bytes (0.0005%),Tasks on Node: 1.
+2025-02-16 14:27:45,271 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:27:45,471 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:45,771 - Edge Device 5 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:27:45,771 - Node 3 started processing a task. Current load: 10.0 FLOPs (6.666666666666667e-07%), Network load: 10.0 bytes (0.0006666666666666666%),Tasks on Node: 1.
+2025-02-16 14:27:45,771 - Task assigned to Node 3. Processing time: 0.15 seconds.
+2025-02-16 14:27:45,922 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:46,772 - Edge Device 6 generated a task requiring 150.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:27:46,772 - Node 1 started processing a task. Current load: 150.0 FLOPs (2.9999999999999997e-06%), Network load: 150000.0 bytes (0.0075%),Tasks on Node: 1.
+2025-02-16 14:27:46,772 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:27:46,873 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:47,440 - Edge Device 7 generated a task requiring 10.0 FLOPs and 50000.0 bytes.
+2025-02-16 14:27:47,440 - Node 2 started processing a task. Current load: 10.0 FLOPs (2.5e-07%), Network load: 50000.0 bytes (2.5%),Tasks on Node: 1.
+2025-02-16 14:27:47,442 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:27:47,642 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:47,942 - Edge Device 8 generated a task requiring 20.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:27:47,942 - Node 3 started processing a task. Current load: 20.0 FLOPs (1.3333333333333334e-06%), Network load: 100000.0 bytes (6.666666666666667%),Tasks on Node: 1.
+2025-02-16 14:27:47,943 - Task assigned to Node 3. Processing time: 0.15 seconds.
+2025-02-16 14:27:48,094 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:48,944 - Edge Device 9 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:27:48,944 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (3.0%), Network load: 150000.0 bytes (0.0075%),Tasks on Node: 1.
+2025-02-16 14:27:48,945 - Task assigned to Node 1. Processing time: 0.13 seconds.
+2025-02-16 14:27:49,075 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:49,612 - Edge Device 10 generated a task requiring 100000000.0 FLOPs and 50000.0 bytes.
+2025-02-16 14:27:49,612 - Node 2 started processing a task. Current load: 100000000.0 FLOPs (2.5%), Network load: 50000.0 bytes (2.5%),Tasks on Node: 1.
+2025-02-16 14:27:49,613 - Task assigned to Node 2. Processing time: 0.23 seconds.
+2025-02-16 14:27:49,838 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:50,113 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:27:50,113 - Node 3 started processing a task. Current load: 10.0 FLOPs (6.666666666666667e-07%), Network load: 10.0 bytes (0.0006666666666666666%),Tasks on Node: 1.
+2025-02-16 14:27:50,114 - Task assigned to Node 3. Processing time: 0.15 seconds.
+2025-02-16 14:27:50,264 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:50,615 - Edge Device 2 generated a task requiring 200.0 FLOPs and 20.0 bytes.
+2025-02-16 14:27:50,615 - Node 1 started processing a task. Current load: 200.0 FLOPs (4e-06%), Network load: 20.0 bytes (1e-06%),Tasks on Node: 1.
+2025-02-16 14:27:50,616 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:27:50,716 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:51,617 - Edge Device 3 generated a task requiring 1500.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:27:51,617 - Node 2 is down for 5 seconds.
+2025-02-16 14:27:51,617 - Node 1 started processing a task. Current load: 1500.0 FLOPs (2.9999999999999997e-05%), Network load: 150000.0 bytes (0.0075%),Tasks on Node: 1.
+2025-02-16 14:27:51,718 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:52,284 - Edge Device 4 generated a task requiring 1000.0 FLOPs and 10.0 bytes.
+2025-02-16 14:27:52,284 - Node 3 started processing a task. Current load: 1000.0 FLOPs (6.666666666666667e-05%), Network load: 10.0 bytes (0.0006666666666666666%),Tasks on Node: 1.
+2025-02-16 14:27:52,285 - Task assigned to Node 3. Processing time: 0.15 seconds.
+2025-02-16 14:27:52,436 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:52,786 - Edge Device 5 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:27:52,786 - Node 1 started processing a task. Current load: 10.0 FLOPs (2.0000000000000002e-07%), Network load: 10.0 bytes (5e-07%),Tasks on Node: 1.
+2025-02-16 14:27:52,786 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:27:52,886 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:53,787 - Edge Device 6 generated a task requiring 150.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:27:53,787 - Node 1 started processing a task. Current load: 150.0 FLOPs (2.9999999999999997e-06%), Network load: 150000.0 bytes (0.0075%),Tasks on Node: 1.
+2025-02-16 14:27:53,888 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:54,455 - Edge Device 7 generated a task requiring 10.0 FLOPs and 50000.0 bytes.
+2025-02-16 14:27:54,455 - Node 3 is down for 7 seconds.
+2025-02-16 14:27:54,455 - Node 1 started processing a task. Current load: 10.0 FLOPs (2.0000000000000002e-07%), Network load: 50000.0 bytes (0.0025%),Tasks on Node: 1.
+2025-02-16 14:27:54,555 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:54,955 - Edge Device 8 generated a task requiring 20.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:27:54,955 - Node 1 started processing a task. Current load: 20.0 FLOPs (4.0000000000000003e-07%), Network load: 100000.0 bytes (0.005%),Tasks on Node: 1.
+2025-02-16 14:27:54,955 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:27:55,056 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:55,957 - Edge Device 9 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:27:55,957 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (3.0%), Network load: 150000.0 bytes (0.0075%),Tasks on Node: 1.
+2025-02-16 14:27:56,088 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:56,624 - Edge Device 10 generated a task requiring 100000000.0 FLOPs and 50000.0 bytes.
+2025-02-16 14:27:56,624 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (2.0%), Network load: 50000.0 bytes (0.0025%),Tasks on Node: 1.
+2025-02-16 14:27:56,745 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:57,125 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:27:57,125 - Node 1 started processing a task. Current load: 10.0 FLOPs (2.0000000000000002e-07%), Network load: 10.0 bytes (5e-07%),Tasks on Node: 1.
+2025-02-16 14:27:57,125 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:27:57,227 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:57,627 - Edge Device 2 generated a task requiring 200.0 FLOPs and 20.0 bytes.
+2025-02-16 14:27:57,627 - Node 2 is back online.
+2025-02-16 14:27:57,627 - Node 2 started processing a task. Current load: 200.0 FLOPs (4.9999999999999996e-06%), Network load: 20.0 bytes (0.001%),Tasks on Node: 1.
+2025-02-16 14:27:57,627 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:27:57,828 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:58,628 - Edge Device 3 generated a task requiring 1500.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:27:58,628 - Node 1 started processing a task. Current load: 1500.0 FLOPs (2.9999999999999997e-05%), Network load: 150000.0 bytes (0.0075%),Tasks on Node: 1.
+2025-02-16 14:27:58,729 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:59,296 - Edge Device 4 generated a task requiring 1000.0 FLOPs and 10.0 bytes.
+2025-02-16 14:27:59,296 - Node 1 started processing a task. Current load: 1000.0 FLOPs (1.9999999999999998e-05%), Network load: 10.0 bytes (5e-07%),Tasks on Node: 1.
+2025-02-16 14:27:59,296 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:27:59,398 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:27:59,797 - Edge Device 5 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:27:59,797 - Node 2 started processing a task. Current load: 10.0 FLOPs (2.5e-07%), Network load: 10.0 bytes (0.0005%),Tasks on Node: 1.
+2025-02-16 14:27:59,797 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:27:59,998 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:28:00,798 - Edge Device 6 generated a task requiring 150.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:28:00,798 - Node 1 is down for 1 seconds.
+2025-02-16 14:28:00,798 - Node 2 started processing a task. Current load: 150.0 FLOPs (3.7499999999999997e-06%), Network load: 150000.0 bytes (7.5%),Tasks on Node: 1.
+2025-02-16 14:28:00,999 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:28:01,466 - Edge Device 7 generated a task requiring 10.0 FLOPs and 50000.0 bytes.
+2025-02-16 14:28:01,466 - Node 2 is down for 5 seconds.
+2025-02-16 14:28:01,466 - Node 3 is back online.
+2025-02-16 14:28:01,466 - Node 3 started processing a task. Current load: 10.0 FLOPs (6.666666666666667e-07%), Network load: 50000.0 bytes (3.3333333333333335%),Tasks on Node: 1.
+2025-02-16 14:28:01,617 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:28:01,967 - Edge Device 8 generated a task requiring 20.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:28:01,967 - Node 1 is back online.
+2025-02-16 14:28:01,967 - Node 1 started processing a task. Current load: 20.0 FLOPs (4.0000000000000003e-07%), Network load: 100000.0 bytes (0.005%),Tasks on Node: 1.
+2025-02-16 14:28:02,068 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:28:02,968 - Edge Device 9 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:28:02,968 - Node 3 started processing a task. Current load: 150000000.0 FLOPs (10.0%), Network load: 150000.0 bytes (10.0%),Tasks on Node: 1.
+2025-02-16 14:28:02,968 - Task assigned to Node 3. Processing time: 0.25 seconds.
+2025-02-16 14:28:03,219 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:28:03,636 - Edge Device 10 generated a task requiring 100000000.0 FLOPs and 50000.0 bytes.
+2025-02-16 14:28:03,636 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (2.0%), Network load: 50000.0 bytes (0.0025%),Tasks on Node: 1.
+2025-02-16 14:28:03,636 - Task assigned to Node 1. Processing time: 0.12 seconds.
+2025-02-16 14:28:03,757 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:28:04,138 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:28:04,138 - Node 1 started processing a task. Current load: 10.0 FLOPs (2.0000000000000002e-07%), Network load: 10.0 bytes (5e-07%),Tasks on Node: 1.
+2025-02-16 14:28:04,238 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:28:04,639 - Edge Device 2 generated a task requiring 200.0 FLOPs and 20.0 bytes.
+2025-02-16 14:28:04,639 - Node 3 started processing a task. Current load: 200.0 FLOPs (1.3333333333333333e-05%), Network load: 20.0 bytes (0.0013333333333333333%),Tasks on Node: 1.
+2025-02-16 14:28:04,639 - Task assigned to Node 3. Processing time: 0.15 seconds.
+2025-02-16 14:28:04,790 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:28:05,640 - Edge Device 3 generated a task requiring 1500.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:28:05,640 - Node 1 started processing a task. Current load: 1500.0 FLOPs (2.9999999999999997e-05%), Network load: 150000.0 bytes (0.0075%),Tasks on Node: 1.
+2025-02-16 14:28:05,640 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:28:05,742 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:28:06,308 - Edge Device 4 generated a task requiring 1000.0 FLOPs and 10.0 bytes.
+2025-02-16 14:28:06,308 - Node 1 started processing a task. Current load: 1000.0 FLOPs (1.9999999999999998e-05%), Network load: 10.0 bytes (5e-07%),Tasks on Node: 1.
+2025-02-16 14:28:06,409 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:28:06,809 - Edge Device 5 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:28:06,809 - Node 3 started processing a task. Current load: 10.0 FLOPs (6.666666666666667e-07%), Network load: 10.0 bytes (0.0006666666666666666%),Tasks on Node: 1.
+2025-02-16 14:28:06,809 - Task assigned to Node 3. Processing time: 0.15 seconds.
+2025-02-16 14:28:06,960 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:28:07,810 - Edge Device 6 generated a task requiring 150.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:28:07,810 - Node 1 started processing a task. Current load: 150.0 FLOPs (2.9999999999999997e-06%), Network load: 150000.0 bytes (0.0075%),Tasks on Node: 1.
+2025-02-16 14:28:07,810 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:28:07,911 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:28:08,478 - Edge Device 7 generated a task requiring 10.0 FLOPs and 50000.0 bytes.
+2025-02-16 14:28:08,478 - Node 2 is back online.
+2025-02-16 14:28:08,478 - Node 2 started processing a task. Current load: 10.0 FLOPs (2.5e-07%), Network load: 50000.0 bytes (2.5%),Tasks on Node: 1.
+2025-02-16 14:28:08,479 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:28:08,679 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:28:08,979 - Edge Device 8 generated a task requiring 20.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:28:08,979 - Node 3 started processing a task. Current load: 20.0 FLOPs (1.3333333333333334e-06%), Network load: 100000.0 bytes (6.666666666666667%),Tasks on Node: 1.
+2025-02-16 14:28:08,979 - Task assigned to Node 3. Processing time: 0.15 seconds.
+2025-02-16 14:28:09,130 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:28:09,980 - Edge Device 9 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:28:09,980 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (3.0%), Network load: 150000.0 bytes (0.0075%),Tasks on Node: 1.
+2025-02-16 14:28:09,980 - Task assigned to Node 1. Processing time: 0.13 seconds.
+2025-02-16 14:28:10,111 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:28:10,648 - Edge Device 10 generated a task requiring 100000000.0 FLOPs and 50000.0 bytes.
+2025-02-16 14:28:10,648 - Node 2 started processing a task. Current load: 100000000.0 FLOPs (2.5%), Network load: 50000.0 bytes (2.5%),Tasks on Node: 1.
+2025-02-16 14:28:10,648 - Task assigned to Node 2. Processing time: 0.23 seconds.
+2025-02-16 14:28:10,874 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 14:42:41,820 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:42:41,820 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (10.0%), Network load: 100000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:42:41,821 - Task assigned to Node 1. Processing time: 0.20 seconds.
+2025-02-16 14:42:42,022 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:42,322 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:42:42,322 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:42:42,322 - Task assigned to Node 2. Processing time: 0.30 seconds.
+2025-02-16 14:42:42,623 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:43,324 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:42:43,324 - Node 3 started processing a task. Current load: 150000000.0 FLOPs (10.0%), Network load: 150000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:42:43,325 - Task assigned to Node 3. Processing time: 0.25 seconds.
+2025-02-16 14:42:43,575 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:43,992 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:42:43,992 - Node 4 started processing a task. Current load: 100000000.0 FLOPs (4.0%), Network load: 100000.0 bytes (4.0%), Active tasks: 1.
+2025-02-16 14:42:43,992 - Task assigned to Node 4. Processing time: 0.29 seconds.
+2025-02-16 14:42:44,283 - Node 4 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:44,493 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:42:44,493 - Node 5 started processing a task. Current load: 200000000.0 FLOPs (6.666666666666667%), Network load: 200000.0 bytes (6.666666666666667%), Active tasks: 1.
+2025-02-16 14:42:44,498 - Task assigned to Node 5. Processing time: 0.37 seconds.
+2025-02-16 14:42:44,865 - Node 5 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:45,499 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:42:45,499 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (15.0%), Network load: 150000.0 bytes (15.0%), Active tasks: 1.
+2025-02-16 14:42:45,499 - Task assigned to Node 1. Processing time: 0.25 seconds.
+2025-02-16 14:42:45,750 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:46,167 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:42:46,167 - Node 2 started processing a task. Current load: 100000000.0 FLOPs (5.0%), Network load: 100000.0 bytes (5.0%), Active tasks: 1.
+2025-02-16 14:42:46,167 - Task assigned to Node 2. Processing time: 0.25 seconds.
+2025-02-16 14:42:46,418 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:46,668 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:42:46,668 - Node 3 started processing a task. Current load: 200000000.0 FLOPs (13.333333333333334%), Network load: 200000.0 bytes (13.333333333333334%), Active tasks: 1.
+2025-02-16 14:42:46,669 - Task assigned to Node 3. Processing time: 0.28 seconds.
+2025-02-16 14:42:46,953 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:47,669 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:42:47,669 - Node 4 started processing a task. Current load: 150000000.0 FLOPs (6.0%), Network load: 150000.0 bytes (6.0%), Active tasks: 1.
+2025-02-16 14:42:47,669 - Task assigned to Node 4. Processing time: 0.31 seconds.
+2025-02-16 14:42:47,981 - Node 4 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:48,337 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:42:48,337 - Node 5 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (3.3333333333333335%), Active tasks: 1.
+2025-02-16 14:42:48,337 - Task assigned to Node 5. Processing time: 0.33 seconds.
+2025-02-16 14:42:48,672 - Node 5 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:48,838 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:42:48,838 - Node 1 started processing a task. Current load: 200000000.0 FLOPs (20.0%), Network load: 200000.0 bytes (20.0%), Active tasks: 1.
+2025-02-16 14:42:48,838 - Task assigned to Node 1. Processing time: 0.30 seconds.
+2025-02-16 14:42:49,140 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:49,839 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:42:49,839 - Node 2 started processing a task. Current load: 150000000.0 FLOPs (7.5%), Network load: 150000.0 bytes (7.5%), Active tasks: 1.
+2025-02-16 14:42:49,839 - Task assigned to Node 2. Processing time: 0.28 seconds.
+2025-02-16 14:42:50,115 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:50,507 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:42:50,507 - Node 3 started processing a task. Current load: 100000000.0 FLOPs (6.666666666666667%), Network load: 100000.0 bytes (6.666666666666667%), Active tasks: 1.
+2025-02-16 14:42:50,507 - Task assigned to Node 3. Processing time: 0.22 seconds.
+2025-02-16 14:42:50,725 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:51,008 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:42:51,008 - Node 4 started processing a task. Current load: 200000000.0 FLOPs (8.0%), Network load: 200000.0 bytes (8.0%), Active tasks: 1.
+2025-02-16 14:42:51,008 - Task assigned to Node 4. Processing time: 0.33 seconds.
+2025-02-16 14:42:51,339 - Node 4 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:52,009 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:42:52,009 - Node 5 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (5.0%), Active tasks: 1.
+2025-02-16 14:42:52,009 - Task assigned to Node 5. Processing time: 0.35 seconds.
+2025-02-16 14:42:52,360 - Node 5 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:52,678 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:42:52,678 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (10.0%), Network load: 100000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:42:52,678 - Task assigned to Node 1. Processing time: 0.20 seconds.
+2025-02-16 14:42:52,879 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:53,179 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:42:53,179 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:42:53,179 - Task assigned to Node 2. Processing time: 0.30 seconds.
+2025-02-16 14:42:53,479 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:54,180 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:42:54,180 - Node 3 started processing a task. Current load: 150000000.0 FLOPs (10.0%), Network load: 150000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:42:54,180 - Task assigned to Node 3. Processing time: 0.25 seconds.
+2025-02-16 14:42:54,431 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:54,848 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:42:54,848 - Node 4 started processing a task. Current load: 100000000.0 FLOPs (4.0%), Network load: 100000.0 bytes (4.0%), Active tasks: 1.
+2025-02-16 14:42:54,848 - Task assigned to Node 4. Processing time: 0.29 seconds.
+2025-02-16 14:42:55,139 - Node 4 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:55,349 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:42:55,349 - Node 5 started processing a task. Current load: 200000000.0 FLOPs (6.666666666666667%), Network load: 200000.0 bytes (6.666666666666667%), Active tasks: 1.
+2025-02-16 14:42:55,349 - Task assigned to Node 5. Processing time: 0.37 seconds.
+2025-02-16 14:42:55,717 - Node 5 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:56,350 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:42:56,350 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (15.0%), Network load: 150000.0 bytes (15.0%), Active tasks: 1.
+2025-02-16 14:42:56,350 - Task assigned to Node 1. Processing time: 0.25 seconds.
+2025-02-16 14:42:56,601 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:57,018 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:42:57,018 - Node 2 started processing a task. Current load: 100000000.0 FLOPs (5.0%), Network load: 100000.0 bytes (5.0%), Active tasks: 1.
+2025-02-16 14:42:57,018 - Task assigned to Node 2. Processing time: 0.25 seconds.
+2025-02-16 14:42:57,269 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:57,519 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:42:57,519 - Node 3 started processing a task. Current load: 200000000.0 FLOPs (13.333333333333334%), Network load: 200000.0 bytes (13.333333333333334%), Active tasks: 1.
+2025-02-16 14:42:57,519 - Task assigned to Node 3. Processing time: 0.28 seconds.
+2025-02-16 14:42:57,804 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:58,521 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:42:58,521 - Node 4 started processing a task. Current load: 150000000.0 FLOPs (6.0%), Network load: 150000.0 bytes (6.0%), Active tasks: 1.
+2025-02-16 14:42:58,521 - Task assigned to Node 4. Processing time: 0.31 seconds.
+2025-02-16 14:42:58,832 - Node 4 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:59,189 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:42:59,189 - Node 5 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (3.3333333333333335%), Active tasks: 1.
+2025-02-16 14:42:59,189 - Task assigned to Node 5. Processing time: 0.33 seconds.
+2025-02-16 14:42:59,523 - Node 5 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:42:59,690 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:42:59,690 - Node 1 started processing a task. Current load: 200000000.0 FLOPs (20.0%), Network load: 200000.0 bytes (20.0%), Active tasks: 1.
+2025-02-16 14:42:59,690 - Task assigned to Node 1. Processing time: 0.30 seconds.
+2025-02-16 14:42:59,991 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:00,691 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:43:00,691 - Node 2 started processing a task. Current load: 150000000.0 FLOPs (7.5%), Network load: 150000.0 bytes (7.5%), Active tasks: 1.
+2025-02-16 14:43:00,691 - Task assigned to Node 2. Processing time: 0.28 seconds.
+2025-02-16 14:43:00,967 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:01,359 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:43:01,359 - Node 3 started processing a task. Current load: 100000000.0 FLOPs (6.666666666666667%), Network load: 100000.0 bytes (6.666666666666667%), Active tasks: 1.
+2025-02-16 14:43:01,359 - Task assigned to Node 3. Processing time: 0.22 seconds.
+2025-02-16 14:43:01,576 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:01,860 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:43:01,860 - Node 4 started processing a task. Current load: 200000000.0 FLOPs (8.0%), Network load: 200000.0 bytes (8.0%), Active tasks: 1.
+2025-02-16 14:43:01,860 - Task assigned to Node 4. Processing time: 0.33 seconds.
+2025-02-16 14:43:02,191 - Node 4 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:02,861 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:43:02,861 - Node 5 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (5.0%), Active tasks: 1.
+2025-02-16 14:43:02,861 - Task assigned to Node 5. Processing time: 0.35 seconds.
+2025-02-16 14:43:03,212 - Node 5 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:03,529 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:43:03,529 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (10.0%), Network load: 100000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:43:03,530 - Task assigned to Node 1. Processing time: 0.20 seconds.
+2025-02-16 14:43:03,731 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:04,031 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:43:04,031 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:43:04,031 - Task assigned to Node 2. Processing time: 0.30 seconds.
+2025-02-16 14:43:04,332 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:05,032 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:43:05,032 - Node 3 started processing a task. Current load: 150000000.0 FLOPs (10.0%), Network load: 150000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:43:05,032 - Task assigned to Node 3. Processing time: 0.25 seconds.
+2025-02-16 14:43:05,283 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:05,700 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:43:05,700 - Node 4 started processing a task. Current load: 100000000.0 FLOPs (4.0%), Network load: 100000.0 bytes (4.0%), Active tasks: 1.
+2025-02-16 14:43:05,701 - Task assigned to Node 4. Processing time: 0.29 seconds.
+2025-02-16 14:43:05,991 - Node 4 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:06,201 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:43:06,201 - Node 5 started processing a task. Current load: 200000000.0 FLOPs (6.666666666666667%), Network load: 200000.0 bytes (6.666666666666667%), Active tasks: 1.
+2025-02-16 14:43:06,201 - Task assigned to Node 5. Processing time: 0.37 seconds.
+2025-02-16 14:43:06,569 - Node 5 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:07,202 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:43:07,202 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (15.0%), Network load: 150000.0 bytes (15.0%), Active tasks: 1.
+2025-02-16 14:43:07,202 - Task assigned to Node 1. Processing time: 0.25 seconds.
+2025-02-16 14:43:07,453 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:07,870 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:43:07,870 - Node 2 started processing a task. Current load: 100000000.0 FLOPs (5.0%), Network load: 100000.0 bytes (5.0%), Active tasks: 1.
+2025-02-16 14:43:07,871 - Task assigned to Node 2. Processing time: 0.25 seconds.
+2025-02-16 14:43:08,121 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:08,371 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:43:08,371 - Node 3 started processing a task. Current load: 200000000.0 FLOPs (13.333333333333334%), Network load: 200000.0 bytes (13.333333333333334%), Active tasks: 1.
+2025-02-16 14:43:08,371 - Task assigned to Node 3. Processing time: 0.28 seconds.
+2025-02-16 14:43:08,656 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:09,372 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:43:09,372 - Node 4 started processing a task. Current load: 150000000.0 FLOPs (6.0%), Network load: 150000.0 bytes (6.0%), Active tasks: 1.
+2025-02-16 14:43:09,372 - Task assigned to Node 4. Processing time: 0.31 seconds.
+2025-02-16 14:43:09,684 - Node 4 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:10,041 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:43:10,041 - Node 5 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (3.3333333333333335%), Active tasks: 1.
+2025-02-16 14:43:10,041 - Task assigned to Node 5. Processing time: 0.33 seconds.
+2025-02-16 14:43:10,375 - Node 5 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:10,542 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:43:10,542 - Node 1 started processing a task. Current load: 200000000.0 FLOPs (20.0%), Network load: 200000.0 bytes (20.0%), Active tasks: 1.
+2025-02-16 14:43:10,542 - Task assigned to Node 1. Processing time: 0.30 seconds.
+2025-02-16 14:43:10,842 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:43:11,542 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:43:11,542 - Node 2 started processing a task. Current load: 150000000.0 FLOPs (7.5%), Network load: 150000.0 bytes (7.5%), Active tasks: 1.
+2025-02-16 14:43:11,542 - Task assigned to Node 2. Processing time: 0.28 seconds.
+2025-02-16 14:43:11,818 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:44:46,340 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:44:46,340 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (10.0%), Network load: 100000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:44:46,341 - Task assigned to Node 1. Processing time: 0.20 seconds.
+2025-02-16 14:44:46,542 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:44:46,842 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:44:46,842 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:44:46,842 - Task assigned to Node 2. Processing time: 0.30 seconds.
+2025-02-16 14:44:47,143 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:44:47,844 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:44:47,844 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (15.0%), Network load: 150000.0 bytes (15.0%), Active tasks: 1.
+2025-02-16 14:44:47,844 - Task assigned to Node 1. Processing time: 0.25 seconds.
+2025-02-16 14:44:48,095 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:44:48,511 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:44:48,511 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 14:44:48,511 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:44:48,712 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:44:49,012 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 14:44:49,012 - Node 1 started processing a task. Current load: 20.0 FLOPs (2e-06%), Network load: 100.0 bytes (0.01%), Active tasks: 1.
+2025-02-16 14:44:49,013 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:44:49,114 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:44:50,014 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 14:44:50,014 - Node 2 is down for 5 seconds.
+2025-02-16 14:44:50,014 - Node 1 is down for 10 seconds.
+2025-02-16 14:44:50,014 - Task from Edge Device 3 was lost. Total lost packets: 1.
+2025-02-16 14:44:50,681 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:44:50,681 - Task from Edge Device 1 was lost. Total lost packets: 2.
+2025-02-16 14:44:51,181 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:44:51,181 - Task from Edge Device 2 was lost. Total lost packets: 3.
+2025-02-16 14:44:52,182 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:44:52,182 - Task from Edge Device 3 was lost. Total lost packets: 4.
+2025-02-16 14:44:52,850 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:44:52,850 - Task from Edge Device 1 was lost. Total lost packets: 5.
+2025-02-16 14:44:53,350 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 14:44:53,350 - Task from Edge Device 2 was lost. Total lost packets: 6.
+2025-02-16 14:44:54,351 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 14:44:54,351 - Task from Edge Device 3 was lost. Total lost packets: 7.
+2025-02-16 14:44:55,019 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:44:55,019 - Node 2 is back online.
+2025-02-16 14:44:55,019 - Node 2 started processing a task. Current load: 100000000.0 FLOPs (5.0%), Network load: 100000.0 bytes (5.0%), Active tasks: 1.
+2025-02-16 14:44:55,270 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:44:55,520 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:44:55,520 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:44:55,521 - Task assigned to Node 2. Processing time: 0.30 seconds.
+2025-02-16 14:44:55,821 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:44:56,521 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:44:56,521 - Node 2 started processing a task. Current load: 150000000.0 FLOPs (7.5%), Network load: 150000.0 bytes (7.5%), Active tasks: 1.
+2025-02-16 14:44:56,797 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:44:57,189 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:44:57,189 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 14:44:57,189 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:44:57,390 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:44:57,690 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 14:44:57,690 - Node 2 is down for 5 seconds.
+2025-02-16 14:44:57,690 - Task from Edge Device 2 was lost. Total lost packets: 8.
+2025-02-16 14:44:58,691 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 14:44:58,691 - Task from Edge Device 3 was lost. Total lost packets: 9.
+2025-02-16 14:44:59,359 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:44:59,359 - Task from Edge Device 1 was lost. Total lost packets: 10.
+2025-02-16 14:44:59,860 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:44:59,860 - Task from Edge Device 2 was lost. Total lost packets: 11.
+2025-02-16 14:45:00,860 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:45:00,860 - Node 1 is back online.
+2025-02-16 14:45:00,860 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (15.0%), Network load: 150000.0 bytes (15.0%), Active tasks: 1.
+2025-02-16 14:45:00,861 - Task assigned to Node 1. Processing time: 0.25 seconds.
+2025-02-16 14:45:01,112 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:01,528 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:45:01,528 - Node 1 started processing a task. Current load: 10.0 FLOPs (1e-06%), Network load: 10.0 bytes (0.001%), Active tasks: 1.
+2025-02-16 14:45:01,629 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:02,029 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 14:45:02,029 - Node 1 started processing a task. Current load: 20.0 FLOPs (2e-06%), Network load: 100.0 bytes (0.01%), Active tasks: 1.
+2025-02-16 14:45:02,029 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:45:02,130 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:03,031 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 14:45:03,031 - Node 2 is back online.
+2025-02-16 14:45:03,031 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%), Active tasks: 1.
+2025-02-16 14:45:03,031 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:45:03,232 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:03,699 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:45:03,699 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (10.0%), Network load: 100000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:45:03,699 - Task assigned to Node 1. Processing time: 0.20 seconds.
+2025-02-16 14:45:03,900 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:04,200 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:45:04,200 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:45:04,200 - Task assigned to Node 2. Processing time: 0.30 seconds.
+2025-02-16 14:45:04,501 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:05,201 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:45:05,201 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (15.0%), Network load: 150000.0 bytes (15.0%), Active tasks: 1.
+2025-02-16 14:45:05,202 - Task assigned to Node 1. Processing time: 0.25 seconds.
+2025-02-16 14:45:05,452 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:05,869 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:45:05,869 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 14:45:05,869 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:45:06,070 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:06,370 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 14:45:06,370 - Node 1 started processing a task. Current load: 20.0 FLOPs (2e-06%), Network load: 100.0 bytes (0.01%), Active tasks: 1.
+2025-02-16 14:45:06,371 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:45:06,471 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:07,371 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 14:45:07,371 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%), Active tasks: 1.
+2025-02-16 14:45:07,371 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:45:07,572 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:08,039 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:45:08,039 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (10.0%), Network load: 100000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:45:08,039 - Task assigned to Node 1. Processing time: 0.20 seconds.
+2025-02-16 14:45:08,240 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:08,540 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:45:08,540 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:45:08,541 - Task assigned to Node 2. Processing time: 0.30 seconds.
+2025-02-16 14:45:08,841 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:09,541 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:45:09,541 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (15.0%), Network load: 150000.0 bytes (15.0%), Active tasks: 1.
+2025-02-16 14:45:09,541 - Task assigned to Node 1. Processing time: 0.25 seconds.
+2025-02-16 14:45:09,792 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:10,209 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:45:10,209 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 14:45:10,209 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:45:10,410 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:10,710 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 14:45:10,710 - Node 1 started processing a task. Current load: 20.0 FLOPs (2e-06%), Network load: 100.0 bytes (0.01%), Active tasks: 1.
+2025-02-16 14:45:10,711 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:45:10,811 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:11,711 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 14:45:11,711 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%), Active tasks: 1.
+2025-02-16 14:45:11,711 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:45:11,912 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:12,379 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:45:12,379 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (10.0%), Network load: 100000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:45:12,379 - Task assigned to Node 1. Processing time: 0.20 seconds.
+2025-02-16 14:45:12,580 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:12,880 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:45:12,880 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:45:12,880 - Task assigned to Node 2. Processing time: 0.30 seconds.
+2025-02-16 14:45:13,181 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:13,881 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:45:13,881 - Node 1 is down for 10 seconds.
+2025-02-16 14:45:13,881 - Node 2 started processing a task. Current load: 150000000.0 FLOPs (7.5%), Network load: 150000.0 bytes (7.5%), Active tasks: 1.
+2025-02-16 14:45:14,158 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:14,549 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:45:14,549 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 14:45:14,549 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:45:14,750 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:15,050 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 14:45:15,050 - Node 2 started processing a task. Current load: 20.0 FLOPs (1e-06%), Network load: 100.0 bytes (0.005%), Active tasks: 1.
+2025-02-16 14:45:15,250 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:45:16,051 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 14:45:16,051 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%), Active tasks: 1.
+2025-02-16 14:45:16,051 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:45:16,252 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:34,588 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:47:34,589 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%), Active tasks: 1.
+2025-02-16 14:47:34,589 - Task assigned to Node 1. Processing time: 0.13 seconds.
+2025-02-16 14:47:34,724 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:35,091 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:47:35,091 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:47:35,091 - Task assigned to Node 2. Processing time: 0.30 seconds.
+2025-02-16 14:47:35,391 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:36,092 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:47:36,092 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%), Active tasks: 1.
+2025-02-16 14:47:36,092 - Task assigned to Node 1. Processing time: 0.15 seconds.
+2025-02-16 14:47:36,243 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:36,760 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:47:36,760 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 14:47:36,760 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:47:36,961 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:37,261 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 14:47:37,261 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%), Active tasks: 1.
+2025-02-16 14:47:37,261 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:47:37,362 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:38,262 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 14:47:38,262 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%), Active tasks: 1.
+2025-02-16 14:47:38,262 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:47:38,463 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:38,930 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:47:38,930 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%), Active tasks: 1.
+2025-02-16 14:47:38,930 - Task assigned to Node 1. Processing time: 0.13 seconds.
+2025-02-16 14:47:39,064 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:39,431 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:47:39,431 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:47:39,432 - Task assigned to Node 2. Processing time: 0.30 seconds.
+2025-02-16 14:47:39,732 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:40,433 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:47:40,433 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%), Active tasks: 1.
+2025-02-16 14:47:40,433 - Task assigned to Node 1. Processing time: 0.15 seconds.
+2025-02-16 14:47:40,584 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:41,101 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:47:41,101 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 14:47:41,101 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:47:41,302 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:41,602 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 14:47:41,602 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%), Active tasks: 1.
+2025-02-16 14:47:41,602 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:47:41,703 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:42,603 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 14:47:42,603 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%), Active tasks: 1.
+2025-02-16 14:47:42,603 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:47:42,803 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:43,270 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:47:43,270 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%), Active tasks: 1.
+2025-02-16 14:47:43,271 - Task assigned to Node 1. Processing time: 0.13 seconds.
+2025-02-16 14:47:43,405 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:43,772 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:47:43,772 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:47:43,772 - Task assigned to Node 2. Processing time: 0.30 seconds.
+2025-02-16 14:47:44,072 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:44,773 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:47:44,773 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%), Active tasks: 1.
+2025-02-16 14:47:44,773 - Task assigned to Node 1. Processing time: 0.15 seconds.
+2025-02-16 14:47:44,923 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:45,440 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:47:45,440 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 14:47:45,441 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:47:45,641 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:45,941 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 14:47:45,941 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%), Active tasks: 1.
+2025-02-16 14:47:45,941 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:47:46,042 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:46,943 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 14:47:46,943 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%), Active tasks: 1.
+2025-02-16 14:47:46,943 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:47:47,143 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:47,610 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:47:47,610 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%), Active tasks: 1.
+2025-02-16 14:47:47,611 - Task assigned to Node 1. Processing time: 0.13 seconds.
+2025-02-16 14:47:47,745 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:48,111 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:47:48,111 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:47:48,116 - Task assigned to Node 2. Processing time: 0.30 seconds.
+2025-02-16 14:47:48,417 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:49,117 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:47:49,117 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%), Active tasks: 1.
+2025-02-16 14:47:49,118 - Task assigned to Node 1. Processing time: 0.15 seconds.
+2025-02-16 14:47:49,268 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:49,785 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:47:49,785 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 14:47:49,785 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:47:49,986 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:50,286 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 14:47:50,286 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%), Active tasks: 1.
+2025-02-16 14:47:50,286 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:47:50,387 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:51,287 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 14:47:51,287 - Node 2 is down for 5 seconds.
+2025-02-16 14:47:51,287 - Node 1 started processing a task. Current load: 15.0 FLOPs (5e-07%), Network load: 15.0 bytes (1.4999999999999998e-06%), Active tasks: 1.
+2025-02-16 14:47:51,388 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:51,955 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:47:51,955 - Node 1 is down for 10 seconds.
+2025-02-16 14:47:51,955 - Task from Edge Device 1 was lost. Total lost packets: 1.
+2025-02-16 14:47:52,456 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:47:52,456 - Task from Edge Device 2 was lost. Total lost packets: 2.
+2025-02-16 14:47:53,457 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:47:53,457 - Task from Edge Device 3 was lost. Total lost packets: 3.
+2025-02-16 14:47:54,124 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:47:54,124 - Task from Edge Device 1 was lost. Total lost packets: 4.
+2025-02-16 14:47:54,625 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 14:47:54,625 - Task from Edge Device 2 was lost. Total lost packets: 5.
+2025-02-16 14:47:55,626 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 14:47:55,626 - Task from Edge Device 3 was lost. Total lost packets: 6.
+2025-02-16 14:47:56,293 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:47:56,293 - Node 2 is back online.
+2025-02-16 14:47:56,293 - Node 2 started processing a task. Current load: 100000000.0 FLOPs (5.0%), Network load: 100000.0 bytes (5.0%), Active tasks: 1.
+2025-02-16 14:47:56,544 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:56,795 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:47:56,795 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:47:56,795 - Task assigned to Node 2. Processing time: 0.30 seconds.
+2025-02-16 14:47:57,095 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:57,796 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:47:57,796 - Node 2 started processing a task. Current load: 150000000.0 FLOPs (7.5%), Network load: 150000.0 bytes (7.5%), Active tasks: 1.
+2025-02-16 14:47:58,072 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:58,463 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:47:58,463 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 14:47:58,464 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:47:58,664 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:58,964 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 14:47:58,964 - Node 2 started processing a task. Current load: 20.0 FLOPs (1e-06%), Network load: 100.0 bytes (0.005%), Active tasks: 1.
+2025-02-16 14:47:59,165 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:47:59,965 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 14:47:59,965 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%), Active tasks: 1.
+2025-02-16 14:47:59,965 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:48:00,166 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:48:00,633 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 14:48:00,633 - Node 2 started processing a task. Current load: 100000000.0 FLOPs (5.0%), Network load: 100000.0 bytes (5.0%), Active tasks: 1.
+2025-02-16 14:48:00,883 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:48:01,133 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 14:48:01,133 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 14:48:01,134 - Task assigned to Node 2. Processing time: 0.30 seconds.
+2025-02-16 14:48:01,435 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:48:02,135 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 14:48:02,135 - Node 1 is back online.
+2025-02-16 14:48:02,135 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%), Active tasks: 1.
+2025-02-16 14:48:02,135 - Task assigned to Node 1. Processing time: 0.15 seconds.
+2025-02-16 14:48:02,286 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:48:02,803 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 14:48:02,803 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 14:48:02,803 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:48:03,004 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:48:03,304 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 14:48:03,304 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%), Active tasks: 1.
+2025-02-16 14:48:03,304 - Task assigned to Node 1. Processing time: 0.10 seconds.
+2025-02-16 14:48:03,405 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 14:48:04,305 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 14:48:04,305 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%), Active tasks: 1.
+2025-02-16 14:48:04,305 - Task assigned to Node 2. Processing time: 0.20 seconds.
+2025-02-16 14:48:04,506 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:26:38,253 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:26:38,253 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%), Active tasks: 1.
+2025-02-16 15:26:38,254 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:26:38,388 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:26:38,754 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:26:38,754 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 15:26:38,754 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:26:39,056 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:26:39,756 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:26:39,756 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%), Active tasks: 1.
+2025-02-16 15:26:39,756 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:26:39,906 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:26:40,424 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:26:40,424 - Node 2 is down for 5 seconds.
+2025-02-16 15:26:40,424 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:26:40,925 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:26:40,925 - Node 1 is down for 10 seconds.
+2025-02-16 15:26:40,925 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:26:41,926 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:26:41,926 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:26:42,593 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:26:42,593 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:26:43,094 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:26:43,094 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:26:44,094 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:26:44,094 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:26:44,762 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:26:44,762 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:26:45,263 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:26:45,263 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:26:46,263 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:26:46,263 - Node 2 is back online.
+2025-02-16 15:26:46,263 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%), Active tasks: 1.
+2025-02-16 15:26:46,263 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:26:46,465 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:26:46,931 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:26:46,931 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:26:47,432 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:26:47,432 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 15:26:47,432 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:26:47,733 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:26:48,433 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:26:48,433 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:26:49,100 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:26:49,100 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 15:26:49,100 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:26:49,301 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:26:49,601 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:26:49,601 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:26:50,602 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:26:50,602 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%), Active tasks: 1.
+2025-02-16 15:26:50,603 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:26:50,803 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:26:51,270 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:26:51,270 - Node 1 is back online.
+2025-02-16 15:26:51,270 - Node 1 is down for 10 seconds.
+2025-02-16 15:26:51,270 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:26:51,771 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:26:51,771 - Node 2 is down for 5 seconds.
+2025-02-16 15:26:51,771 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:26:52,772 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:26:52,772 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:26:53,439 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:26:53,439 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:26:53,940 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:26:53,940 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:26:54,941 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:26:54,941 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:26:55,608 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:26:55,608 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:26:56,108 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:26:56,108 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:26:57,109 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:26:57,109 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:26:57,777 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:26:57,777 - Node 2 is back online.
+2025-02-16 15:26:57,777 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 15:26:57,778 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:26:57,978 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:26:58,278 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:26:58,278 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:26:59,279 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:26:59,279 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%), Active tasks: 1.
+2025-02-16 15:26:59,279 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:26:59,480 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:26:59,947 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:26:59,947 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:27:00,447 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:27:00,447 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 15:27:00,448 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:27:00,748 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:27:01,449 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:27:01,449 - Node 1 is back online.
+2025-02-16 15:27:01,449 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%), Active tasks: 1.
+2025-02-16 15:27:01,450 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:27:01,600 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:27:02,117 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:27:02,117 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 15:27:02,117 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:27:02,317 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:27:02,618 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:27:02,618 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%), Active tasks: 1.
+2025-02-16 15:27:02,618 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:27:02,719 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:27:03,619 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:27:03,619 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%), Active tasks: 1.
+2025-02-16 15:27:03,619 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:27:03,820 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:27:04,287 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:27:04,287 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%), Active tasks: 1.
+2025-02-16 15:27:04,288 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:27:04,422 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:27:04,788 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:27:04,788 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 15:27:04,788 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:27:05,089 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:27:05,790 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:27:05,790 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%), Active tasks: 1.
+2025-02-16 15:27:05,790 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:27:05,941 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:27:06,457 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:27:06,457 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 15:27:06,458 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:27:06,659 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:27:06,959 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:27:06,959 - Node 1 is down for 10 seconds.
+2025-02-16 15:27:06,959 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:27:07,960 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:27:07,960 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%), Active tasks: 1.
+2025-02-16 15:27:07,960 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:27:08,162 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:32:42,906 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:32:42,907 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%), Active tasks: 1.
+2025-02-16 15:32:42,907 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:32:43,041 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:32:43,408 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:32:43,408 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 15:32:43,408 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:32:43,709 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:32:44,409 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:32:44,409 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%), Active tasks: 1.
+2025-02-16 15:32:44,409 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:32:44,560 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:32:45,077 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:32:45,077 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 15:32:45,078 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:32:45,278 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:32:45,579 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:32:45,579 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%), Active tasks: 1.
+2025-02-16 15:32:45,579 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:32:45,680 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:32:46,580 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:32:46,580 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%), Active tasks: 1.
+2025-02-16 15:32:46,580 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:32:46,781 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:32:47,248 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:32:47,248 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%), Active tasks: 1.
+2025-02-16 15:32:47,248 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:32:47,382 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:32:47,749 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:32:47,749 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 15:32:47,749 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:32:48,050 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:32:48,750 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:32:48,750 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%), Active tasks: 1.
+2025-02-16 15:32:48,750 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:32:48,901 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:32:49,418 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:32:49,418 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%), Active tasks: 1.
+2025-02-16 15:32:49,418 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:32:49,619 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:32:49,919 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:32:49,919 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%), Active tasks: 1.
+2025-02-16 15:32:49,919 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:32:50,021 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 15:47:00,365 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:47:00,365 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%).
+2025-02-16 15:47:00,366 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:47:00,500 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:00,866 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:47:00,866 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%).
+2025-02-16 15:47:00,866 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:01,167 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:01,868 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:47:01,868 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:01,868 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%).
+2025-02-16 15:47:01,868 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:47:02,019 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:02,536 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:47:02,536 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:02,536 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%).
+2025-02-16 15:47:02,536 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:02,737 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:03,038 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:47:03,038 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:03,038 - Node 1 is down for 10 seconds.
+2025-02-16 15:47:03,038 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:47:03,038 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:47:04,039 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:47:04,039 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:04,039 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%).
+2025-02-16 15:47:04,039 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:04,240 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:04,706 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:47:04,706 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:47:04,706 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:47:05,207 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:47:05,207 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:05,207 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%).
+2025-02-16 15:47:05,208 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:05,508 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:06,209 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:47:06,209 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:47:06,209 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:47:06,876 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:47:06,876 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:06,876 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%).
+2025-02-16 15:47:06,877 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:07,077 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:07,377 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:47:07,377 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:47:07,377 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:47:08,378 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:47:08,378 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:08,378 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%).
+2025-02-16 15:47:08,378 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:08,579 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:09,046 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:47:09,046 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:47:09,046 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:47:09,547 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:47:09,547 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:09,547 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%).
+2025-02-16 15:47:09,547 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:09,849 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:10,548 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:47:10,548 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:47:10,548 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:47:11,216 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:47:11,216 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:11,216 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%).
+2025-02-16 15:47:11,216 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:11,417 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:11,717 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:47:11,717 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:47:11,717 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:47:12,718 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:47:12,718 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:12,718 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%).
+2025-02-16 15:47:12,718 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:12,919 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:13,386 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:47:13,386 - Node 1 is back online.
+2025-02-16 15:47:13,386 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%).
+2025-02-16 15:47:13,386 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:47:13,520 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:13,887 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:47:13,887 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:13,887 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%).
+2025-02-16 15:47:13,887 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:14,188 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:14,889 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:47:14,889 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:14,889 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%).
+2025-02-16 15:47:14,889 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:47:15,039 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:15,557 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:47:15,557 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:15,557 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%).
+2025-02-16 15:47:15,557 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:15,758 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:16,058 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:47:16,058 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:16,058 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%).
+2025-02-16 15:47:16,058 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:47:16,159 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:17,060 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:47:17,060 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:17,060 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%).
+2025-02-16 15:47:17,060 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:17,261 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:17,727 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:47:17,727 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:17,727 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%).
+2025-02-16 15:47:17,727 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:47:17,862 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:18,229 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:47:18,229 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:18,229 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%).
+2025-02-16 15:47:18,229 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:18,530 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:19,230 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:47:19,230 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:19,230 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%).
+2025-02-16 15:47:19,231 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:47:19,381 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:19,898 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:47:19,898 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:19,898 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%).
+2025-02-16 15:47:19,898 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:20,099 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:20,399 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:47:20,399 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:20,399 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%).
+2025-02-16 15:47:20,399 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:47:20,500 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:21,401 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:47:21,401 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:21,401 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%).
+2025-02-16 15:47:21,401 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:21,602 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:22,069 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:47:22,069 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:22,069 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%).
+2025-02-16 15:47:22,070 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:47:22,203 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:22,570 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:47:22,570 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:22,570 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%).
+2025-02-16 15:47:22,570 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:22,871 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:23,572 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:47:23,572 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:23,572 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%).
+2025-02-16 15:47:23,572 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:47:23,723 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:24,239 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:47:24,239 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:24,239 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%).
+2025-02-16 15:47:24,240 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:24,440 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:24,740 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:47:24,740 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:24,740 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%).
+2025-02-16 15:47:24,740 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:47:24,842 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:25,742 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:47:25,742 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:25,742 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%).
+2025-02-16 15:47:25,742 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:25,943 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:26,410 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:47:26,410 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:26,410 - Node 1 is down for 10 seconds.
+2025-02-16 15:47:26,410 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:47:26,410 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:47:26,910 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:47:26,910 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:26,910 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%).
+2025-02-16 15:47:26,910 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:27,211 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:27,911 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:47:27,911 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:47:27,911 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:47:28,578 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:47:28,578 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:28,578 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%).
+2025-02-16 15:47:28,578 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:28,780 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:47:29,080 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:47:29,080 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:47:29,080 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:47:30,080 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:47:30,080 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:47:30,080 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%).
+2025-02-16 15:47:30,081 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:47:30,282 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:52:25,187 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:52:25,187 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%).
+2025-02-16 15:52:25,188 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:52:25,322 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:52:25,688 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:52:25,688 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%).
+2025-02-16 15:52:25,688 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:52:25,989 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:52:26,689 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:52:26,689 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:52:26,689 - Node 1 is down for 10 seconds.
+2025-02-16 15:52:26,689 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:52:26,690 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:52:27,357 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:52:27,357 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:52:27,357 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%).
+2025-02-16 15:52:27,357 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:52:27,558 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:53:07,207 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:53:07,207 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: []
+2025-02-16 15:53:07,208 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:53:07,342 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:53:07,709 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:53:07,709 - Node 2 is down for 5 seconds.
+2025-02-16 15:53:07,709 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:53:07,709 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:53:08,710 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:53:08,710 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:53:08,710 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: []
+2025-02-16 15:53:08,711 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:53:08,861 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:53:09,378 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:53:09,378 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:53:09,378 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:53:09,879 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:53:09,879 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:53:09,879 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: []
+2025-02-16 15:53:09,880 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:53:09,980 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:53:10,880 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:53:10,880 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:53:10,880 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:53:11,548 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:53:11,548 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:53:11,548 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: []
+2025-02-16 15:53:11,548 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:53:11,682 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:53:12,049 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:53:12,049 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:53:12,049 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:53:13,050 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:53:13,050 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:53:13,050 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: []
+2025-02-16 15:53:13,050 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:53:13,201 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:53:13,718 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:53:13,718 - Node 2 is back online.
+2025-02-16 15:53:13,718 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: []
+2025-02-16 15:53:13,719 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:53:13,919 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:53:14,219 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:53:14,219 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:53:14,219 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: []
+2025-02-16 15:53:14,219 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:53:14,321 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:53:15,221 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:53:15,221 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:53:15,221 - Node 2 is down for 5 seconds.
+2025-02-16 15:53:15,221 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:53:15,221 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:53:15,889 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:53:15,889 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:53:15,889 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: []
+2025-02-16 15:53:15,889 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:53:16,023 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:53:16,390 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:53:16,390 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:53:16,390 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:53:17,391 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:53:17,391 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:53:17,391 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: []
+2025-02-16 15:53:17,392 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:53:17,542 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:53:18,059 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:53:18,059 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:53:18,059 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:53:18,560 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:53:18,560 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:53:18,560 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: []
+2025-02-16 15:53:18,560 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:53:18,661 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:53:19,561 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:53:19,561 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:53:19,561 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:53:20,228 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:53:20,228 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:53:20,228 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: []
+2025-02-16 15:53:20,229 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:53:20,362 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:04,811 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:55:04,811 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 15:55:04,812 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:04,946 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:05,313 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:55:05,313 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 15:55:05,313 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:05,614 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:06,314 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:55:06,314 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:06,314 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 15:55:06,315 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:06,466 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:06,982 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:55:06,982 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:06,982 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 15:55:06,983 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:07,184 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:07,483 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:55:07,483 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:07,483 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 15:55:07,483 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:07,585 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:08,485 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:55:08,485 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:08,485 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%),Active tasks: 1
+2025-02-16 15:55:08,486 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:08,686 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:09,153 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:55:09,153 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:09,153 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 15:55:09,154 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:09,288 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:09,655 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:55:09,655 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:09,655 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 15:55:09,655 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:09,957 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:10,657 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:55:10,657 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:10,657 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 15:55:10,658 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:10,808 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:11,325 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:55:11,325 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:11,325 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 15:55:11,325 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:11,526 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:11,826 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:55:11,826 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:11,826 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 15:55:11,826 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:11,927 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:12,827 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:55:12,827 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:12,827 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%),Active tasks: 1
+2025-02-16 15:55:12,827 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:13,028 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:13,495 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:55:13,495 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:13,495 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 15:55:13,496 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:13,629 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:13,996 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:55:13,996 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:13,996 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 15:55:13,997 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:14,297 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:14,997 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:55:14,997 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:14,997 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 15:55:14,998 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:15,148 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:15,665 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:55:15,665 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:15,665 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 15:55:15,666 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:15,866 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:16,166 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:55:16,166 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:16,166 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 15:55:16,167 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:16,268 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:17,168 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:55:17,168 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:17,168 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%),Active tasks: 1
+2025-02-16 15:55:17,168 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:17,369 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:17,836 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:55:17,836 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:17,836 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 15:55:17,837 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:17,970 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:18,337 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:55:18,337 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:18,337 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 15:55:18,337 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:18,638 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:19,339 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:55:19,339 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:19,339 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 15:55:19,340 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:19,490 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:20,007 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:55:20,007 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:20,007 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 15:55:20,008 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:20,208 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:20,508 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:55:20,508 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:20,508 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 15:55:20,508 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:20,609 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:21,509 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:55:21,509 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:21,509 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%),Active tasks: 1
+2025-02-16 15:55:21,511 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:21,711 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:22,178 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:55:22,178 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:22,178 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 15:55:22,179 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:22,312 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:22,680 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:55:22,680 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:22,680 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 15:55:22,681 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:22,982 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:23,682 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:55:23,682 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:23,682 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 15:55:23,683 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:23,833 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:24,350 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:55:24,350 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:24,350 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 15:55:24,351 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:24,552 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:24,852 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:55:24,852 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:24,852 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 15:55:24,852 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:24,953 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:25,853 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:55:25,853 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:25,853 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%),Active tasks: 1
+2025-02-16 15:55:25,854 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:26,054 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:26,521 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:55:26,521 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:26,521 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 15:55:26,522 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:26,655 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:27,022 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:55:27,022 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:27,022 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 15:55:27,023 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:27,323 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:28,024 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:55:28,024 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:28,024 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 15:55:28,024 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:28,175 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:28,692 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:55:28,692 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:28,692 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 15:55:28,692 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:55:28,893 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:29,193 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:55:29,193 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:29,193 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 15:55:29,194 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:29,295 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:30,195 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:55:30,195 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:30,195 - Node 2 is down for 5 seconds.
+2025-02-16 15:55:30,195 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:55:30,195 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:55:30,862 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:55:30,862 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:30,862 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 15:55:30,863 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:30,997 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:31,364 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:55:31,364 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:55:31,364 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:55:32,364 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:55:32,364 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:32,364 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 15:55:32,365 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:32,516 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:33,032 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:55:33,032 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:55:33,032 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:55:33,533 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:55:33,533 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:55:33,533 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 15:55:33,534 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:55:33,635 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:55:34,534 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:55:34,534 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:55:34,534 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:57:30,954 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:57:30,954 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 15:57:30,955 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:57:31,089 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:57:31,456 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:57:31,456 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 15:57:31,456 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:57:31,757 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:57:32,457 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:57:32,457 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:57:32,457 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 15:57:32,458 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:57:32,609 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:57:33,125 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:57:33,125 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:57:33,125 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 15:57:33,125 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:57:33,327 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:57:33,626 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:57:33,626 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:57:33,627 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 15:57:33,627 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:57:33,728 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:57:34,628 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:57:34,628 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:57:34,628 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%),Active tasks: 1
+2025-02-16 15:57:34,628 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:57:34,829 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:57:35,296 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:57:35,296 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:57:35,296 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 15:57:35,297 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:57:35,430 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:57:35,797 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:57:35,797 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:57:35,797 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 15:57:35,797 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:57:36,098 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:57:36,798 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:57:36,798 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:57:36,798 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 15:57:36,799 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 15:57:36,949 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:57:37,466 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:57:37,466 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:57:37,466 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 15:57:37,467 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 15:57:37,667 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 15:57:37,968 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:57:37,968 - Node 1 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:57:37,968 - Node 1 is down for 10 seconds.
+2025-02-16 15:57:37,968 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:57:37,968 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:57:38,969 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:57:38,969 - Node 2 updated after completing tasks. Active tasks: 0.
+2025-02-16 15:57:38,969 - Node 2 is down for 5 seconds.
+2025-02-16 15:57:38,969 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:57:38,969 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:57:39,637 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 15:57:39,637 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:57:39,637 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:57:40,137 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 15:57:40,137 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:57:40,137 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:57:41,138 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 15:57:41,138 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:57:41,138 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:57:41,806 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 15:57:41,806 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:57:41,806 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 15:57:42,306 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 15:57:42,306 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:57:42,306 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 15:57:43,307 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 15:57:43,307 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 15:57:43,307 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 16:20:47,272 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:20:47,272 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:20:47,273 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:20:47,774 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:20:47,774 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 16:20:47,775 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:20:48,775 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:20:48,775 - Node 1 started processing a task. Current load: 250000000.0 FLOPs (8.333333333333332%), Network load: 250000.0 bytes (0.025%),Active tasks: 2
+2025-02-16 16:20:48,776 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:20:49,443 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 16:20:49,443 - Node 2 started processing a task. Current load: 200000010.0 FLOPs (10.0000005%), Network load: 200010.0 bytes (10.000499999999999%),Active tasks: 2
+2025-02-16 16:20:49,443 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:20:49,944 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 16:20:49,944 - Node 1 started processing a task. Current load: 250000020.0 FLOPs (8.333334%), Network load: 250100.0 bytes (0.02501%),Active tasks: 3
+2025-02-16 16:20:49,944 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:21:34,873 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:21:34,873 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:25:34,038 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:25:34,038 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:25:43,817 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:25:43,817 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:26:14,544 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:26:14,544 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:26:24,691 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:26:24,691 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:26:24,692 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:26:24,826 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:26:25,193 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:26:25,193 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 16:26:25,193 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:26:25,494 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:26:26,194 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:26:26,194 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 16:26:26,194 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:26:26,345 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:26:26,863 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 16:26:26,863 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 16:26:26,863 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:26:27,064 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:26:27,364 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 16:26:27,364 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 16:26:27,364 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:26:27,465 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:26:28,365 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 16:26:28,365 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%),Active tasks: 1
+2025-02-16 16:26:28,365 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:26:28,566 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:26:29,033 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:26:29,033 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:26:29,033 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:26:29,167 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:26:29,534 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:26:29,534 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 16:26:29,534 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:26:29,834 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:26:30,535 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:26:30,535 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 16:26:30,536 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:26:30,686 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:26:31,203 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 16:26:31,203 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 16:26:31,203 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:26:31,405 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:26:31,705 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 16:26:31,705 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 16:26:31,705 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:26:31,806 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:26:32,706 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 16:26:32,706 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%),Active tasks: 1
+2025-02-16 16:26:32,706 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:26:32,907 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:26:33,374 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:26:33,374 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:26:33,374 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:26:33,508 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:27:52,819 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:27:52,819 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:27:52,820 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:27:52,953 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:27:53,320 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:27:53,320 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 16:27:53,321 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:27:53,621 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:27:54,321 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:27:54,321 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 16:27:54,321 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:27:54,472 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:27:54,989 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 16:27:54,989 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 16:27:54,989 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:27:55,190 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:27:55,490 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 16:27:55,490 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 16:27:55,490 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:27:55,591 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:27:56,492 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 16:27:56,492 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%),Active tasks: 1
+2025-02-16 16:27:56,492 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:27:56,693 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:27:57,160 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:27:57,160 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:27:57,160 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:27:57,295 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:27:57,661 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:27:57,661 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 16:27:57,661 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:27:57,962 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:27:58,662 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:27:58,662 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 16:27:58,663 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:27:58,813 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:27:59,330 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 16:27:59,330 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 16:27:59,330 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:27:59,531 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:27:59,831 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 16:27:59,831 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 16:27:59,831 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:27:59,932 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:00,833 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 16:28:00,833 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%),Active tasks: 1
+2025-02-16 16:28:00,833 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:28:01,034 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:01,500 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:28:01,500 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:28:01,501 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:28:01,635 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:02,001 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:28:02,001 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 16:28:02,001 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:28:02,302 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:03,002 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:28:03,002 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 16:28:03,003 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:28:03,153 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:03,670 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 16:28:03,670 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 16:28:03,670 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:28:03,871 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:04,171 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 16:28:04,171 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 16:28:04,171 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:28:04,272 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:05,173 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 16:28:05,173 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%),Active tasks: 1
+2025-02-16 16:28:05,173 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:28:05,374 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:05,841 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:28:05,841 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:28:05,841 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:28:05,975 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:06,342 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:28:06,342 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 16:28:06,342 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:28:06,643 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:07,343 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:28:07,343 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 16:28:07,343 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:28:07,494 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:08,011 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 16:28:08,011 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 16:28:08,011 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:28:08,212 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:08,512 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 16:28:08,512 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 16:28:08,512 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:28:08,613 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:09,513 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 16:28:09,513 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%),Active tasks: 1
+2025-02-16 16:28:09,513 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:28:09,714 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:10,180 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:28:10,180 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:28:10,180 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:28:10,315 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:10,682 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:28:10,682 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 16:28:10,682 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:28:10,983 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:11,683 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:28:11,683 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 16:28:11,684 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:28:11,834 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:12,351 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 16:28:12,351 - Node 2 is down for 5 seconds.
+2025-02-16 16:28:12,351 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 16:28:12,351 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 16:28:12,852 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 16:28:12,852 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 16:28:12,852 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:28:12,952 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:13,853 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 16:28:13,853 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 16:28:13,853 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 16:28:14,520 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:28:14,520 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:28:14,520 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:28:14,654 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:15,021 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:28:15,021 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 16:28:15,021 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 16:28:16,022 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:28:16,022 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 16:28:16,022 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:28:16,173 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:16,690 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 16:28:16,690 - Node 2 cannot accept the task due to resource or availability constraints.
+2025-02-16 16:28:16,690 - Task assigned to Node 2. Processing time: 0.00 seconds.
+2025-02-16 16:28:17,191 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 16:28:17,191 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 16:28:17,191 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:28:17,291 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:18,192 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 16:28:18,192 - Node 2 is back online.
+2025-02-16 16:28:18,192 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%),Active tasks: 1
+2025-02-16 16:28:18,192 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:28:18,393 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:18,859 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:28:18,859 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:28:18,859 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:28:18,994 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:19,361 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:28:19,361 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 16:28:19,361 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:28:19,662 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:20,362 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:28:20,362 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (0.015%),Active tasks: 1
+2025-02-16 16:28:20,362 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:28:20,513 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:21,029 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 16:28:21,029 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 16:28:21,029 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:28:21,230 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:21,531 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 16:28:21,531 - Node 1 started processing a task. Current load: 20.0 FLOPs (6.666666666666667e-07%), Network load: 100.0 bytes (9.999999999999999e-06%),Active tasks: 1
+2025-02-16 16:28:21,531 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:28:21,631 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:28:22,532 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 16:28:22,532 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%),Active tasks: 1
+2025-02-16 16:28:22,532 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:28:22,733 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:30:24,268 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:30:24,269 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (0.01%),Active tasks: 1
+2025-02-16 16:30:24,269 - Task assigned to Node 1. Processing time: 1.00 seconds.
+2025-02-16 16:30:24,403 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:30:24,770 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:30:24,770 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%),Active tasks: 1
+2025-02-16 16:30:24,770 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:30:25,071 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:30:25,771 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:30:25,771 - Node 1 is down for 10 seconds.
+2025-02-16 16:30:25,771 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 16:30:25,771 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 16:30:26,438 - Edge Device 1 generated a task requiring 10.0 FLOPs and 10.0 bytes.
+2025-02-16 16:30:26,438 - Node 2 started processing a task. Current load: 10.0 FLOPs (5e-07%), Network load: 10.0 bytes (0.0005%),Active tasks: 1
+2025-02-16 16:30:26,438 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:30:26,639 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:30:26,940 - Edge Device 2 generated a task requiring 20.0 FLOPs and 100.0 bytes.
+2025-02-16 16:30:26,940 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 16:30:26,940 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 16:30:27,940 - Edge Device 3 generated a task requiring 15.0 FLOPs and 15.0 bytes.
+2025-02-16 16:30:27,940 - Node 2 started processing a task. Current load: 15.0 FLOPs (7.499999999999999e-07%), Network load: 15.0 bytes (0.00075%),Active tasks: 1
+2025-02-16 16:30:27,940 - Task assigned to Node 2. Processing time: 1.00 seconds.
+2025-02-16 16:30:28,141 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%).
+2025-02-16 16:30:28,608 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:30:28,608 - Node 1 cannot accept the task due to resource or availability constraints.
+2025-02-16 16:30:28,608 - Task assigned to Node 1. Processing time: 0.00 seconds.
+2025-02-16 16:35:01,976 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:35:01,976 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (10.0%), Network load: 100000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 16:35:01,977 - Task assigned to Node 1.
+2025-02-16 16:35:02,178 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:02,478 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:35:02,478 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 16:35:02,479 - Task assigned to Node 2.
+2025-02-16 16:35:02,779 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:03,480 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:35:03,480 - Node 3 started processing a task. Current load: 150000000.0 FLOPs (10.0%), Network load: 150000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 16:35:03,480 - Task assigned to Node 3.
+2025-02-16 16:35:03,731 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:04,147 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:35:04,147 - Node 4 started processing a task. Current load: 100000000.0 FLOPs (4.0%), Network load: 100000.0 bytes (4.0%), Active tasks: 1.
+2025-02-16 16:35:04,147 - Task assigned to Node 4.
+2025-02-16 16:35:04,438 - Node 4 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:04,649 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:35:04,649 - Node 5 started processing a task. Current load: 200000000.0 FLOPs (6.666666666666667%), Network load: 200000.0 bytes (6.666666666666667%), Active tasks: 1.
+2025-02-16 16:35:04,649 - Task assigned to Node 5.
+2025-02-16 16:35:05,016 - Node 5 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:05,650 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:35:05,650 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (15.0%), Network load: 150000.0 bytes (15.0%), Active tasks: 1.
+2025-02-16 16:35:05,650 - Task assigned to Node 1.
+2025-02-16 16:35:05,901 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:06,318 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:35:06,318 - Node 2 started processing a task. Current load: 100000000.0 FLOPs (5.0%), Network load: 100000.0 bytes (5.0%), Active tasks: 1.
+2025-02-16 16:35:06,318 - Task assigned to Node 2.
+2025-02-16 16:35:06,569 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:06,819 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:35:06,819 - Node 3 started processing a task. Current load: 200000000.0 FLOPs (13.333333333333334%), Network load: 200000.0 bytes (13.333333333333334%), Active tasks: 1.
+2025-02-16 16:35:06,819 - Task assigned to Node 3.
+2025-02-16 16:35:07,103 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:07,820 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:35:07,820 - Node 4 started processing a task. Current load: 150000000.0 FLOPs (6.0%), Network load: 150000.0 bytes (6.0%), Active tasks: 1.
+2025-02-16 16:35:07,820 - Task assigned to Node 4.
+2025-02-16 16:35:08,131 - Node 4 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:08,488 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:35:08,488 - Node 5 started processing a task. Current load: 100000000.0 FLOPs (3.3333333333333335%), Network load: 100000.0 bytes (3.3333333333333335%), Active tasks: 1.
+2025-02-16 16:35:08,488 - Task assigned to Node 5.
+2025-02-16 16:35:08,822 - Node 5 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:08,989 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:35:08,989 - Node 1 started processing a task. Current load: 200000000.0 FLOPs (20.0%), Network load: 200000.0 bytes (20.0%), Active tasks: 1.
+2025-02-16 16:35:08,989 - Task assigned to Node 1.
+2025-02-16 16:35:09,290 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:09,990 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:35:09,990 - Node 2 started processing a task. Current load: 150000000.0 FLOPs (7.5%), Network load: 150000.0 bytes (7.5%), Active tasks: 1.
+2025-02-16 16:35:09,990 - Task assigned to Node 2.
+2025-02-16 16:35:10,266 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:10,657 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:35:10,657 - Node 3 started processing a task. Current load: 100000000.0 FLOPs (6.666666666666667%), Network load: 100000.0 bytes (6.666666666666667%), Active tasks: 1.
+2025-02-16 16:35:10,657 - Task assigned to Node 3.
+2025-02-16 16:35:10,875 - Node 3 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:11,158 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:35:11,158 - Node 4 started processing a task. Current load: 200000000.0 FLOPs (8.0%), Network load: 200000.0 bytes (8.0%), Active tasks: 1.
+2025-02-16 16:35:11,158 - Task assigned to Node 4.
+2025-02-16 16:35:11,490 - Node 4 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:12,159 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:35:12,159 - Node 5 started processing a task. Current load: 150000000.0 FLOPs (5.0%), Network load: 150000.0 bytes (5.0%), Active tasks: 1.
+2025-02-16 16:35:12,159 - Task assigned to Node 5.
+2025-02-16 16:35:12,510 - Node 5 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:12,827 - Edge Device 1 generated a task requiring 100000000.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:35:12,827 - Node 1 started processing a task. Current load: 100000000.0 FLOPs (10.0%), Network load: 100000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 16:35:12,827 - Task assigned to Node 1.
+2025-02-16 16:35:13,028 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:13,328 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:35:13,328 - Node 2 started processing a task. Current load: 200000000.0 FLOPs (10.0%), Network load: 200000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 16:35:13,329 - Task assigned to Node 2.
+2025-02-16 16:35:13,629 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:41,594 - Edge Device 1 generated a task requiring 100.0 FLOPs and 10.0 bytes.
+2025-02-16 16:35:41,594 - Node 1 started processing a task. Current load: 100.0 FLOPs (9.999999999999999e-06%), Network load: 10.0 bytes (0.001%), Active tasks: 1.
+2025-02-16 16:35:41,595 - Task assigned to Node 1.
+2025-02-16 16:35:41,696 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:42,096 - Edge Device 2 generated a task requiring 200.0 FLOPs and 200.0 bytes.
+2025-02-16 16:35:42,096 - Node 2 is down for 5 seconds.
+2025-02-16 16:35:42,096 - Node 1 started processing a task. Current load: 200.0 FLOPs (1.9999999999999998e-05%), Network load: 200.0 bytes (0.02%), Active tasks: 1.
+2025-02-16 16:35:42,198 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:43,098 - Edge Device 3 generated a task requiring 1500.0 FLOPs and 150.0 bytes.
+2025-02-16 16:35:43,098 - Node 1 started processing a task. Current load: 1500.0 FLOPs (0.00015000000000000001%), Network load: 150.0 bytes (0.015%), Active tasks: 1.
+2025-02-16 16:35:43,098 - Task assigned to Node 1.
+2025-02-16 16:35:43,199 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:43,765 - Edge Device 1 generated a task requiring 100.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:35:43,765 - Node 1 started processing a task. Current load: 100.0 FLOPs (9.999999999999999e-06%), Network load: 100000.0 bytes (10.0%), Active tasks: 1.
+2025-02-16 16:35:43,866 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:44,266 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:35:44,266 - Node 1 started processing a task. Current load: 200000000.0 FLOPs (20.0%), Network load: 200000.0 bytes (20.0%), Active tasks: 1.
+2025-02-16 16:35:44,266 - Task assigned to Node 1.
+2025-02-16 16:35:44,568 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:45,268 - Edge Device 3 generated a task requiring 150000000.0 FLOPs and 150000.0 bytes.
+2025-02-16 16:35:45,268 - Node 1 started processing a task. Current load: 150000000.0 FLOPs (15.0%), Network load: 150000.0 bytes (15.0%), Active tasks: 1.
+2025-02-16 16:35:45,519 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:45,936 - Edge Device 1 generated a task requiring 100.0 FLOPs and 10.0 bytes.
+2025-02-16 16:35:45,936 - Node 1 started processing a task. Current load: 100.0 FLOPs (9.999999999999999e-06%), Network load: 10.0 bytes (0.001%), Active tasks: 1.
+2025-02-16 16:35:45,936 - Task assigned to Node 1.
+2025-02-16 16:35:46,036 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:46,437 - Edge Device 2 generated a task requiring 200.0 FLOPs and 200.0 bytes.
+2025-02-16 16:35:46,437 - Node 1 started processing a task. Current load: 200.0 FLOPs (1.9999999999999998e-05%), Network load: 200.0 bytes (0.02%), Active tasks: 1.
+2025-02-16 16:35:46,538 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:47,438 - Edge Device 3 generated a task requiring 1500.0 FLOPs and 150.0 bytes.
+2025-02-16 16:35:47,438 - Node 1 started processing a task. Current load: 1500.0 FLOPs (0.00015000000000000001%), Network load: 150.0 bytes (0.015%), Active tasks: 1.
+2025-02-16 16:35:47,438 - Task assigned to Node 1.
+2025-02-16 16:35:47,538 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:48,105 - Edge Device 1 generated a task requiring 100.0 FLOPs and 100000.0 bytes.
+2025-02-16 16:35:48,105 - Node 2 is back online.
+2025-02-16 16:35:48,105 - Node 2 started processing a task. Current load: 100.0 FLOPs (4.9999999999999996e-06%), Network load: 100000.0 bytes (5.0%), Active tasks: 1.
+2025-02-16 16:35:48,105 - Task assigned to Node 2.
+2025-02-16 16:35:48,307 - Node 2 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
+2025-02-16 16:35:48,607 - Edge Device 2 generated a task requiring 200000000.0 FLOPs and 200000.0 bytes.
+2025-02-16 16:35:48,607 - Node 1 started processing a task. Current load: 200000000.0 FLOPs (20.0%), Network load: 200000.0 bytes (20.0%), Active tasks: 1.
+2025-02-16 16:35:48,607 - Task assigned to Node 1.
+2025-02-16 16:35:48,908 - Node 1 completed a task. Current load: 0.0 FLOPs (0.0%), Network load: 0.0 bytes (0.0%), Active tasks: 0.
