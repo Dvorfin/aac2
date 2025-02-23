@@ -35,9 +35,10 @@ for section, data in node_data.items():
         load = data['Load (FLOPS)']
         plt.plot(time, load, label=section)
 
-plt.title('Загрузка вычислительной мощности нод со временем')
-plt.xlabel('Время (секунды)')
-plt.ylabel('Загрузка (FLOPS)')
+
+plt.title('Загрузка вычислительной мощности нод со временем', fontweight='bold')
+plt.xlabel('Время (секунды)', fontweight='bold')
+plt.ylabel('Загрузка (FLOPS)', fontweight='bold')
 plt.legend()
 plt.grid(True)
 plt.show()
@@ -53,9 +54,9 @@ for section, data in node_data.items():
         load = data['Network Load (Bytes)']
         plt.plot(time, load, label=section)
 
-plt.title('Загрузка сети нод со временем')
-plt.xlabel('Время (секунды)')
-plt.ylabel('Загрузка сети (Байты)')
+plt.title('Загрузка сети нод со временем', fontweight='bold')
+plt.xlabel('Время (секунды)', fontweight='bold')
+plt.ylabel('Загрузка сети (Байты)', fontweight='bold')
 plt.legend()
 plt.grid(True)
 plt.show()
@@ -76,9 +77,9 @@ for section, data in node_data.items():
         running_tasks = data['Running Tasks Count']
         plt.plot(time, running_tasks, label=section)
 
-plt.title('Количество задач на каждой ноде от времени')
-plt.xlabel('Время (секунды)')
-plt.ylabel('Количество задач')
+plt.title('Количество задач на каждой ноде от времени', fontweight='bold')
+plt.xlabel('Время (секунды)', fontweight='bold')
+plt.ylabel('Количество задач', fontweight='bold')
 plt.legend()
 plt.grid(True)
 plt.show()
@@ -95,7 +96,55 @@ values = [total_created_tasks, total_rejected_tasks]
 plt.figure(figsize=(8, 6))
 plt.bar(labels, values, color=['blue', 'red'])
 
-plt.title('Общее количество созданных и отклоненных задач')
-plt.ylabel('Количество задач')
+plt.title('Общее количество созданных и отклоненных задач', fontweight='bold')
+plt.ylabel('Количество задач', fontweight='bold')
 plt.grid(axis='y')
 plt.show()
+
+
+
+# Посчитаем статичтические данные
+average_flops_consumption = dict()
+average_ethernet_consumption = dict()
+average_tasks_on_node = dict()
+
+
+for section, data in node_data.items():
+    if 'Compute Load History' in section:
+        if section in average_flops_consumption:
+            load = data['Load (FLOPS)']
+            average_flops_consumption[section].append(load)
+        else:
+            load = data['Load (FLOPS)']
+            average_flops_consumption[section] = [load,]
+
+    if 'Network Load History' in section:
+        if section in average_ethernet_consumption:
+            load = data['Network Load (Bytes)']
+            average_ethernet_consumption[section].append(load)
+        else:
+            load = data['Network Load (Bytes)']
+            average_ethernet_consumption[section] = [load,]
+
+    if 'Running Tasks History' in section:
+        if section in average_tasks_on_node:
+            load = data['Running Tasks Count']
+            average_tasks_on_node[section].append(load)
+        else:
+            load = data['Running Tasks Count']
+            average_tasks_on_node[section] = [load,]
+
+
+for node in average_flops_consumption.keys():
+    #print(average_flops_consumption[node][0])
+    print(f"Average load of {node} is {round(sum(average_flops_consumption[node][0]) / len(average_flops_consumption[node][0]), 2)} %")
+
+
+for node in average_ethernet_consumption.keys():
+    print(f"Average ethernet of {node} is {round(sum(average_ethernet_consumption[node][0]) / len(average_ethernet_consumption[node][0]), 2)} %")
+
+for node in average_tasks_on_node.keys():
+    print(
+        f"Average tasks of {node} is {round(sum(average_tasks_on_node[node][0]) / len(average_tasks_on_node[node][0]), 2)} piece")
+
+print(f"Total created tasks: {total_created_tasks}, \nTotal rejected tasks: {total_rejected_tasks}")

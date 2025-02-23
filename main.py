@@ -6,7 +6,7 @@ import logging
 import csv
 
 from node import Node
-from task_distributor import RoundRobin
+from task_distributor import RoundRobin, WeightedRoundRobin
 from edge_device import EdgeDevice
 
 # Настройка логирования

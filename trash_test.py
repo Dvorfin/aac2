@@ -124,3 +124,10 @@ min_w = min(weights)
 for w in weights:
     normalized_weight = 1 + 9 * ((w - min_w) / (max_w - min_w))
     print(f"Normalized weight: {normalized_weight}")
+
+
+test = [0, 2, 0, 0, 2, 1, 1]
+
+max_weight = max(test)
+node_index = test.index(max_weight)
+print(node_index, test[node_index])
