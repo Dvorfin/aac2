@@ -22,7 +22,7 @@ class WeightedRoundRobin:
             self.nodes_weights[i] = w
 
     def normalize_node_weights(self):
-        '''Номрализуем веса нод в диапазоне от 1 до 10
+        '''Номрализуем веса нод в диапазоне от 1 до 10.
         Чем больше вес, тем лучше нода'''
 
         # Перещитываем веса
