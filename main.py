@@ -1,96 +1,117 @@
-import simpy
-import matplotlib.pyplot as plt
+import threading
+import queue
+import time
 import random
-# Количество хостов
-NUM_HOSTS = 10
-# Количество задач
-NUM_TASKS = 200000
-# Время выполнения одной задачи на самом медленном хосте
-BASE_TASK_DURATION = 10
-# Время между поступлением задач
-TASK_INTERVAL = 3
-# Общее время симуляции
-SIMULATION_TIME = 200
+import logging
+import csv
+
+from node import Node
+from task_distributor import RoundRobin
+from edge_device import EdgeDevice
+
+# Настройка логирования
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
-def task(env, name, host, host_speed, host_loads, task_load):
+def save_results_to_csv(nodes, total_created_tasks, total_rejected_tasks, simulation_duration):
     """
-    Задача, которая выполняется на хосте.
+    Сохраняет результаты симуляции в CSV-файл.
+
+    :param nodes: Список нод.
+    :param total_created_tasks: Общее количество созданных задач.
+    :param total_rejected_tasks: Общее количество отклоненных задач.
+    :param simulation_duration: Длительность симуляции.
     """
-    start_time = env.now
-    print(f"Task {name} started on {host} (speed: {host_speed}x) at time {start_time}")
+    filename = "simulation_results.csv"
+    with open(filename, mode="w", newline="") as file:
+        writer = csv.writer(file)
+        writer.writerow(["Simulation Duration", "Total Created Tasks", "Total Rejected Tasks"])
+        writer.writerow([simulation_duration, total_created_tasks, total_rejected_tasks])
 
-    # Время выполнения задачи зависит от скорости хоста
-    task_duration = BASE_TASK_DURATION / host_speed
-    yield env.timeout(task_duration)  # Имитация выполнения задачи
+        # Загрузка вычислений, сети и количество задач для каждой ноды
+        for node in nodes:
+            writer.writerow([])
+            writer.writerow([f"Node {node.node_id} - Compute Load History"])
+            writer.writerow(["Time (seconds)", "Load (FLOPS)"])
+            writer.writerows(node.load_history)
 
-    finish_time = env.now
-    print(f"Task {name} finished on {host} at time {finish_time}. Execution time: {task_duration:.2f} units")
+            writer.writerow([f"Node {node.node_id} - Network Load History"])
+            writer.writerow(["Time (seconds)", "Network Load (Bytes)"])
+            writer.writerows(node.network_load_history)
 
-    # Обновляем загрузку хоста
-    for t in range(int(start_time), int(finish_time)):
-        if t < len(host_loads[host]):
-            host_loads[host][t] += task_load  # Увеличиваем загрузку на task_load для каждой секунды
+            writer.writerow([f"Node {node.node_id} - Running Tasks History"])
+            writer.writerow(["Time (seconds)", "Running Tasks Count"])
+            writer.writerows(node.running_tasks_history)
 
+    logging.info(f"Simulation results saved to {filename}")
 
-def task_generator(env, hosts, host_speeds, host_loads):
-    """
-    Генератор задач, который распределяет задачи по хостам с использованием Round Robin.
-    """
-    for i in range(NUM_TASKS):
-        # Выбор хоста по Round Robin
-        host_index = i % NUM_HOSTS
-        host = hosts[host_index]
-        host_speed = host_speeds[host_index]
-
-        # Загрузка задачи (случайное значение от 10% до 50%)
-        task_load = random.uniform(0.1, 0.5)
-
-        # Создание задачи
-        env.process(task(env, f"Task-{i}", host, host_speed, host_loads, task_load))
-
-        # Пауза перед следующей задачей
-        yield env.timeout(TASK_INTERVAL)
-
-
-def main():
-    # Создаем окружение SimPy
-    env = simpy.Environment()
-
-    # Создаем список хостов и их скоростей
-    hosts = [f"Host-{i}" for i in range(NUM_HOSTS)]
-    host_speeds = [1.0, 1.5, 2.0, 0.5, 1.0]  # Скорость выполнения задач для каждого хоста
-
-    # Создаем словарь для хранения загрузки хостов
-    host_loads = {host: [0] * SIMULATION_TIME for host in hosts}
-
-    # Запускаем генератор задач
-    env.process(task_generator(env, hosts, host_speeds, host_loads))
-
-    # Запускаем симуляцию
-    env.run(until=SIMULATION_TIME)
-
-    # Выводим загрузку хостов в процентах
-    for host in hosts:
-        print(f"{host} load over time:")
-        for t in range(SIMULATION_TIME):
-            # Загрузка в процентах (нормализуем до 100%)
-            load_percentage = min(host_loads[host][t], 1) * 100
-            print(f"  Time {t}: {load_percentage:.2f}%")
-
-    # Визуализация загрузки хостов
-    plt.figure(figsize=(10, 6))
-    for host in hosts:
-        load_percentages = [min(host_loads[host][t], 1) * 100 for t in range(SIMULATION_TIME)]
-        plt.plot(range(SIMULATION_TIME), load_percentages, label=host)
-
-    plt.xlabel("Time (seconds)")
-    plt.ylabel("Load (%)")
-    plt.title("Host Load Over Time")
-    plt.legend()
-    plt.grid()
-    plt.show()
 
 
 if __name__ == "__main__":
-    main()
+    # Создаем ноды
+    nodes = [
+        Node(node_id=1, compute_power_flops=1000, delay_seconds=2, bandwidth_bytes=500, failure_probability=0.1,
+             downtime_seconds=5),
+        Node(node_id=2, compute_power_flops=2000, delay_seconds=1, bandwidth_bytes=1000, failure_probability=0.2,
+             downtime_seconds=3),
+        Node(node_id=3, compute_power_flops=500, delay_seconds=3, bandwidth_bytes=750, failure_probability=0.15,
+             downtime_seconds=8)
+    ]
+
+    # Устанавливаем start_time для всех нод
+    start_time = time.time()
+    for node in nodes:
+        node.start_time = start_time
+
+    # Создаем дистрибьютор задач
+    distributor = RoundRobin(nodes)
+
+    # Создаем edge-устройства
+    devices = [
+        EdgeDevice(device_id=1, task_compute_demand=300, task_data_size=200, task_generation_frequency=0.5),
+        EdgeDevice(device_id=2, task_compute_demand=400, task_data_size=210, task_generation_frequency=0.3),
+        EdgeDevice(device_id=3, task_compute_demand=100, task_data_size=200, task_generation_frequency=0.5),
+        EdgeDevice(device_id=4, task_compute_demand=40, task_data_size=150, task_generation_frequency=0.3),
+        EdgeDevice(device_id=5, task_compute_demand=500, task_data_size=20, task_generation_frequency=0.5),
+        EdgeDevice(device_id=6, task_compute_demand=40, task_data_size=300, task_generation_frequency=0.15),
+        EdgeDevice(device_id=7, task_compute_demand=150, task_data_size=200, task_generation_frequency=0.1),
+        EdgeDevice(device_id=8, task_compute_demand=200, task_data_size=300, task_generation_frequency=0.1),
+        EdgeDevice(device_id=9, task_compute_demand=30, task_data_size=20, task_generation_frequency=0.5),
+        EdgeDevice(device_id=10, task_compute_demand=40, task_data_size=30, task_generation_frequency=0.3)
+    ]
+
+    # Стартовые метрики
+    total_created_tasks = 0
+    total_rejected_tasks = 0
+    simulation_duration = 30  # Длительность симуляции в секундах
+    end_time = start_time + simulation_duration
+
+    try:
+        while time.time() < end_time:
+            current_time = time.time()
+            relative_time = current_time - start_time
+
+            # Логирование состояния нод каждую секунду
+            if int(relative_time) != int(relative_time - 1):
+                for node in nodes:
+                    node.log_current_state(relative_time)
+
+            for device in devices:
+                if random.random() < device.task_generation_frequency:
+                    task_compute_demand, task_data_size, task_id = device.generate_task()
+                    logging.info(f"Edge Device {device.device_id}: Task {task_id} generated.")
+                    distributor.distribute_task(task_compute_demand, task_data_size, task_id)
+                    total_created_tasks += 1
+
+            # Симулируем отключение нод
+            for node in nodes:
+                threading.Thread(target=node.simulate_failure).start()
+
+            time.sleep(1)  # Пауза между итерациями симуляции
+
+    except KeyboardInterrupt:
+        logging.info("Simulation stopped by user.")
+
+    # Сохраняем результаты
+    total_rejected_tasks = distributor.rejected_tasks
+    save_results_to_csv(nodes, total_created_tasks, total_rejected_tasks, simulation_duration)
