@@ -79,55 +79,67 @@ class Node:
         print(f"Task {task_id} assigned to Node {self.node_id}")
 
 
-# Создаем ноды с разными весами
-nodes = [
-    Node(node_id="Node1", weight=3, compute_capacity=100, data_capacity=1000),
-    Node(node_id="Node2", weight=2, compute_capacity=100, data_capacity=1000),
-    Node(node_id="Node3", weight=1, compute_capacity=100, data_capacity=1000),
-]
 
-# Создаем балансировщик
-balancer = WeightedRoundRobin(nodes)
+def test_1():
+    # Создаем ноды с разными весами
+    nodes = [
+        Node(node_id="Node1", weight=3, compute_capacity=100, data_capacity=1000),
+        Node(node_id="Node2", weight=2, compute_capacity=100, data_capacity=1000),
+        Node(node_id="Node3", weight=1, compute_capacity=100, data_capacity=1000),
+    ]
 
-# Распределяем задачи
-tasks = [
-    {"task_id": "Task1", "compute_demand": 10, "data_size": 100},
-    {"task_id": "Task2", "compute_demand": 20, "data_size": 200},
-    {"task_id": "Task3", "compute_demand": 30, "data_size": 300},
-    {"task_id": "Task4", "compute_demand": 40, "data_size": 400},
-    {"task_id": "Task5", "compute_demand": 50, "data_size": 500},
-    {"task_id": "Task6", "compute_demand": 60, "data_size": 600},
-]
+    # Создаем балансировщик
+    balancer = WeightedRoundRobin(nodes)
 
-for task in tasks:
-    balancer.distribute_task(task["compute_demand"], task["data_size"], task["task_id"])
-    print(balancer.task_counters)
+    # Распределяем задачи
+    tasks = [
+        {"task_id": "Task1", "compute_demand": 10, "data_size": 100},
+        {"task_id": "Task2", "compute_demand": 20, "data_size": 200},
+        {"task_id": "Task3", "compute_demand": 30, "data_size": 300},
+        {"task_id": "Task4", "compute_demand": 40, "data_size": 400},
+        {"task_id": "Task5", "compute_demand": 50, "data_size": 500},
+        {"task_id": "Task6", "compute_demand": 60, "data_size": 600},
+    ]
 
-
-nodes = [(1000, 2, 500, 0.1),
-        (2000, 1, 1000, 0.2),
-        (500, 3, 750, 0.15)]
+    for task in tasks:
+        balancer.distribute_task(task["compute_demand"], task["data_size"], task["task_id"])
+        print(balancer.task_counters)
 
 
-weights = []
-for n in nodes:
-    flops, delay, bandwidth, fp = n[0], n[1], n[2], n[3]
-
-    w = (flops + bandwidth) / (delay * 1000 + fp)
-    weights.append(w)
-
-    print(f"node weight: {w}")
-
-max_w = max(weights)
-min_w = min(weights)
-
-for w in weights:
-    normalized_weight = 1 + 9 * ((w - min_w) / (max_w - min_w))
-    print(f"Normalized weight: {normalized_weight}")
+    nodes = [(1000, 2, 500, 0.1),
+            (2000, 1, 1000, 0.2),
+            (500, 3, 750, 0.15)]
 
 
-test = [0, 2, 0, 0, 2, 1, 1]
+    weights = []
+    for n in nodes:
+        flops, delay, bandwidth, fp = n[0], n[1], n[2], n[3]
 
-max_weight = max(test)
-node_index = test.index(max_weight)
-print(node_index, test[node_index])
+        w = (flops + bandwidth) / (delay * 1000 + fp)
+        weights.append(w)
+
+        print(f"node weight: {w}")
+
+    max_w = max(weights)
+    min_w = min(weights)
+
+    for w in weights:
+        normalized_weight = 1 + 9 * ((w - min_w) / (max_w - min_w))
+        print(f"Normalized weight: {normalized_weight}")
+
+
+    test = [0, 2, 0, 0, 2, 1, 1]
+
+    max_weight = max(test)
+    node_index = test.index(max_weight)
+    print(node_index, test[node_index])
+
+
+if __name__ == "__main__":
+    connections = [7, 2, 4, 8, 2, 1, 1]
+
+    node_with_min_connections = min(connections)
+    min_node_connections_index = connections.index(node_with_min_connections)
+    print(node_with_min_connections, min_node_connections_index)
+
+    print(all(conn == -1 for conn in [2, -1, -1, -1]))

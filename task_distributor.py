@@ -123,8 +123,12 @@ class LeastConnection:
         """
         self.nodes = nodes
         self.current_node_index = 0
+        self.nodes_connections = [0] * len(nodes)
         self.rejected_tasks = 0  # Счетчик отклоненных задач
 
+    def updated_nodes_connections(self, nodes):
+        for i in range(len(nodes)):
+            self.nodes_connections[i] = nodes[i].get_current_tasks_on_node()  # записываем сколько задач на каждой из нод
 
     def distribute_task(self, task_compute_demand: float, task_data_size: float, task_id: str):
         """
@@ -134,19 +138,31 @@ class LeastConnection:
         :param task_data_size: Объем данных задачи (байты).
         :param task_id: Идентификатор задачи.
         """
-        n = len(self.nodes)
-        start_index = self.current_node_index
+
+        self.updated_nodes_connections(self.nodes)  # обновляем количество подключений перед распределением задач
+
+        for i in range(len(self.nodes)):
+            '''Проверяем доступна ли нода и может ли принять задачу,
+            после этого смотрим на количество подключений (задач  на ноде) и
+            выбираем с минимальным значением'''
+            if self.nodes[i].is_available() and self.nodes[i].can_accept_task(task_compute_demand, task_data_size):
+                continue
+            else:
+                self.nodes_connections[i] = -1  # если нода недоступна, то ставим ей отрицательное кол-во подключений
 
         while True:
-            node = self.nodes[self.current_node_index]
-            if node.is_available() and node.can_accept_task(task_compute_demand, task_data_size):
-                node.add_task(task_compute_demand, task_data_size, task_id)
-                break
-            else:
-                logging.warning(f"Node {node.node_id}: Unable to accept task {task_id}. Trying next node...")
-
-            self.current_node_index = (self.current_node_index + 1) % n
-            if self.current_node_index == start_index:
+            if all(conn == -1 for conn in self.nodes_connections):  # если все ноды заняты или не могут взять задачу
                 logging.error(f"No available nodes to assign task {task_id}. Skipping...")
                 self.rejected_tasks += 1
                 break
+
+            min_connections = min(self.nodes_connections)   # определяем минимальное кол-во подключений среди доступных нод
+            min_connections_node_index = self.nodes_connections.index(min_connections)  # определяем первый индекс среди доступных нод
+
+            # отдаем задачу
+            self.nodes[min_connections_node_index].add_task(task_compute_demand, task_data_size, task_id)
+
+            # обновляем количество подключений
+            self.updated_nodes_connections(self.nodes)
+            logging.error(f"Current connections of Nodes {self.nodes_connections}")
+            break
