@@ -6,7 +6,7 @@ import logging
 import csv
 
 from node import Node
-from task_distributor import RoundRobin, WeightedRoundRobin, LeastConnection
+from task_distributor import RoundRobin, WeightedRoundRobin, LeastConnection, WeightedLeastConnection
 from edge_device import EdgeDevice
 
 # Настройка логирования
@@ -64,7 +64,7 @@ if __name__ == "__main__":
         node.start_time = start_time
 
     # Создаем дистрибьютор задач
-    distributor = LeastConnection(nodes)
+    distributor = WeightedLeastConnection(nodes)
 
     # Создаем edge-устройства
     devices = [

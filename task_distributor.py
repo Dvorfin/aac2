@@ -166,3 +166,101 @@ class LeastConnection:
             self.updated_nodes_connections(self.nodes)
             logging.error(f"Current connections of Nodes {self.nodes_connections}")
             break
+
+
+class WeightedLeastConnection:
+    def __init__(self, nodes: list):
+        """Класс для распределения задач между нодами по алгоритму Weighted Least Connection.
+            :param nodes: Список нод.
+        """
+        self.nodes = nodes
+        self.current_node_index = 0
+        self.nodes_connections = [0] * len(nodes)
+        self.rejected_tasks = 0  # Счетчик отклоненных задач
+
+        self.nodes_weights = [0.0] * len(nodes)
+        self.normalized_nodes_weights = self.normalize_node_weights()   # один раз вычисляем вес нод
+        self.wlc_weight = [0.0] * len(nodes)
+
+    def calc_node_weights(self, nodes):
+        '''Вычисляем вес нод'''
+        for i in range(len(nodes)):
+            flops, delay, bandwidth, fp = (nodes[i].compute_power_flops,
+                                           nodes[i].delay_seconds,
+                                           nodes[i].bandwidth_bytes,
+                                           nodes[i].failure_probability)
+            w = (flops + bandwidth) / (delay * 1000 + fp)
+            self.nodes_weights[i] = w
+
+    def normalize_node_weights(self):
+        '''Номрализуем веса нод в диапазоне от 1 до 10.
+        Чем больше вес, тем лучше нода'''
+
+        normalized_nodes_weights = []
+
+        # Перещитываем веса
+        self.calc_node_weights(self.nodes)
+
+        max_weight = max(self.nodes_weights)
+        min_weight = min(self.nodes_weights)
+
+        for i in range(len(self.nodes_weights)):
+            normalized_weight = 1 + 9 * ((self.nodes_weights[i] - min_weight) / (max_weight - min_weight))
+            normalized_nodes_weights.append(normalized_weight)
+
+        return normalized_nodes_weights
+
+    def updated_nodes_connections(self, nodes):
+        for i in range(len(nodes)):
+            self.nodes_connections[i] = nodes[i].get_current_tasks_on_node()  # записываем сколько задач на каждой из нод
+
+    def calc_wlc_node_weights(self, nodes):
+        '''Вычисляем вес нод для Weighted Least Connections
+        чем меньше значение, тем лучше
+        w = active_connections/normalize_node_weight'''
+
+        # обновляем кол-во подключений, чтобы далее вызывать только функцию calc_wlc_node_weights
+        self.updated_nodes_connections(nodes)
+
+        for i in range(len(self.nodes)):
+            # вычисляем вес по формуле  w = active_connections/normalize_node_weight
+            self.wlc_weight[i] = self.nodes_connections[i]/self.normalized_nodes_weights[i]
+
+    def distribute_task(self, task_compute_demand: float, task_data_size: float, task_id: str):
+        """
+        Распределяет задачу между нодами по алгоритму Round Robin.
+
+        :param task_compute_demand: Требуемая мощность задачи (FLOPS).
+        :param task_data_size: Объем данных задачи (байты).
+        :param task_id: Идентификатор задачи.
+        """
+
+        # обновляем вес нод
+        self.calc_wlc_node_weights(self.nodes)
+
+        for i in range(len(self.nodes)):
+            '''Проверяем доступна ли нода и может ли принять задачу,
+            после этого смотрим на количество подключений (задач  на ноде) и
+            выбираем с минимальным значением'''
+            if self.nodes[i].is_available() and self.nodes[i].can_accept_task(task_compute_demand, task_data_size):
+                continue
+            else:
+                self.wlc_weight[i] = 5000 # если нода недоступна, то ставим ей большой вес
+
+        while True:
+            if all(conn == 5000 for conn in self.wlc_weight):  # если все ноды заняты или не могут взять задачу
+                logging.error(f"No available nodes to assign task {task_id}. Skipping...")
+                self.rejected_tasks += 1
+                break
+
+            min_available_weights = min(self.wlc_weight)   # определяем минимальный вес среди доступных нод
+            min_weight_node_index = self.wlc_weight.index(min_available_weights)  # определяем первый индекс среди доступных нод
+
+            # отдаем задачу
+            self.nodes[min_weight_node_index].add_task(task_compute_demand, task_data_size, task_id)
+
+
+            logging.error(f"Current WLC weights of Nodes {self.wlc_weight} | node index = {min_weight_node_index}")
+            # обновляем вес нод
+            self.calc_wlc_node_weights(self.nodes)
+            break

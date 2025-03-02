@@ -136,10 +136,27 @@ def test_1():
 
 
 if __name__ == "__main__":
-    connections = [7, 2, 4, 8, 2, 1, 1]
+    # weights = [0.4626432664756447, 0.3, 5000]
+    #
+    # min_weight = min(weights)
+    # print(min_weight)
 
-    node_with_min_connections = min(connections)
-    min_node_connections_index = connections.index(node_with_min_connections)
-    print(node_with_min_connections, min_node_connections_index)
+    nodes = [(1000, 2, 500, 0.1),
+             (2000, 1, 1000, 0.2),
+             (500, 3, 750, 0.15)]
 
-    print(all(conn == -1 for conn in [2, -1, -1, -1]))
+    weights = []
+    for n in nodes:
+        flops, delay, bandwidth, fp = n[0], n[1], n[2], n[3]
+
+        w = (flops + bandwidth) / (delay + fp)
+        weights.append(w)
+
+        print(f"node weight: {w}")
+
+    max_w = max(weights)
+    min_w = min(weights)
+
+    for w in weights:
+        normalized_weight = 1 + 9 * ((w - min_w) / (max_w - min_w))
+        print(f"Normalized weight: {normalized_weight}")
