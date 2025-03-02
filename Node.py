@@ -17,7 +17,6 @@ class Node:
         :param bandwidth_bytes: Пропускная способность канала для задачи (в байтах/сек).
         :param failure_probability: Вероятность отключения ноды (0.0 - 1.0).
         :param downtime_seconds: Время отключения ноды (в секундах).
-        :param weight: вес узла.
         """
         self.node_id = node_id
         self.compute_power_flops = compute_power_flops
@@ -27,15 +26,19 @@ class Node:
         self.downtime_seconds = downtime_seconds
         self.current_load_flops = 0.0
         self.current_network_load_bytes = 0.0
-        self.running_tasks_count = 0
+        self.running_tasks_count = 0    # текущее количество задач на ноде
         self.is_down = False
         self.lock = threading.Lock()
         self.task_queue = queue.Queue()
+
 
         # Для сбора статистики
         self.load_history = []  # [(relative_time, load_flops)]
         self.network_load_history = []  # [(relative_time, network_load_bytes)]
         self.running_tasks_history = []  # [(relative_time, running_tasks_count)]
+
+    def get_current_tasks_on_node(self):
+        return self.running_tasks_count
 
     def is_available(self) -> bool:
         """
@@ -106,7 +109,7 @@ class Node:
             self.running_tasks_count -= 1
 
         # Сохраняем текущую загрузку после завершения задачи
-        self._log_metrics()
+        #self._log_metrics()
 
     def _start_processing(self):
         """
@@ -146,6 +149,7 @@ class Node:
 
 
             self.running_tasks_history.append((relative_time, self.running_tasks_count))
+
 
     def log_current_state(self, relative_time: float):
         """

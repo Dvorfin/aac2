@@ -103,6 +103,14 @@ plt.show()
 
 
 
+
+
+
+
+
+
+
+
 # Посчитаем статичтические данные
 average_flops_consumption = dict()
 average_ethernet_consumption = dict()

@@ -64,7 +64,7 @@ if __name__ == "__main__":
         node.start_time = start_time
 
     # Создаем дистрибьютор задач
-    distributor = RoundRobin(nodes)
+    distributor = WeightedRoundRobin(nodes)
 
     # Создаем edge-устройства
     devices = [
@@ -98,6 +98,7 @@ if __name__ == "__main__":
 
             for device in devices:
                 if random.random() < device.task_generation_frequency:
+                    # вообще это некорректно, нужно проверять текущее время и частоты генерации задач устройства
                     task_compute_demand, task_data_size, task_id = device.generate_task()
                     logging.info(f"Edge Device {device.device_id}: Task {task_id} generated.")
                     distributor.distribute_task(task_compute_demand, task_data_size, task_id)
