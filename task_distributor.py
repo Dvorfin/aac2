@@ -131,14 +131,10 @@ class LeastConnection:
             self.nodes_connections[i] = nodes[i].get_current_tasks_on_node()  # записываем сколько задач на каждой из нод
 
     def distribute_task(self, task_compute_demand: float, task_data_size: float, task_id: str):
-        """
-        Распределяет задачу между нодами по алгоритму Round Robin.
-
+        """ Распределяет задачу между нодами по алгоритму Least Connections.
         :param task_compute_demand: Требуемая мощность задачи (FLOPS).
         :param task_data_size: Объем данных задачи (байты).
-        :param task_id: Идентификатор задачи.
-        """
-
+        :param task_id: Идентификатор задачи. """
         self.updated_nodes_connections(self.nodes)  # обновляем количество подключений перед распределением задач
 
         for i in range(len(self.nodes)):
@@ -223,13 +219,11 @@ class WeightedLeastConnection:
         self.updated_nodes_connections(nodes)
 
         for i in range(len(self.nodes)):
-            # вычисляем вес по формуле  w = active_connections/normalize_node_weight
+            # вычисляем вес по формуле  w = Vc/normalize_node_weight
             self.wlc_weight[i] = self.nodes_connections[i]/self.normalized_nodes_weights[i]
 
     def distribute_task(self, task_compute_demand: float, task_data_size: float, task_id: str):
-        """
-        Распределяет задачу между нодами по алгоритму Round Robin.
-
+        """Распределяет задачу между нодами по алгоритму Weighted Least Connections.
         :param task_compute_demand: Требуемая мощность задачи (FLOPS).
         :param task_data_size: Объем данных задачи (байты).
         :param task_id: Идентификатор задачи.
@@ -259,8 +253,8 @@ class WeightedLeastConnection:
             # отдаем задачу
             self.nodes[min_weight_node_index].add_task(task_compute_demand, task_data_size, task_id)
 
-
-            logging.error(f"Current WLC weights of Nodes {self.wlc_weight} | node index = {min_weight_node_index}")
+            logging.error(f"Current WLC weights of Nodes {self.wlc_weight} | Task distributed to Node id = {min_weight_node_index + 1}")
+            logging.error(f"Current WLC Nodes params {self.wlc_weight} | node index = {min_weight_node_index}")
             # обновляем вес нод
             self.calc_wlc_node_weights(self.nodes)
             break

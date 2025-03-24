@@ -1,11 +1,11 @@
 Current working version is:
-- visualize_test_2.py
-- main.py
-- edge_device.py
-- task_distributor.py
-- node.py
-
-Round Robin works
-Weighted Round Robin works
-Least Connections works | need to check
-Weighted Least Connections works?
+- visualize_test_2.py - запускать для визуализации
+- main.py - запускать для симуляции работы
+- edge_device.py - класс эдж устройства
+- task_distributor.py - классы алгоритмов
+- node.py - класс годы
+---
+- Round Robin works
+- Weighted Round Robin works
+- Least Connections works | вроде да, а вроде полурак получто 
+- Weighted Least Connections works?

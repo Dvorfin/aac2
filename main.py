@@ -10,6 +10,9 @@ from task_distributor import RoundRobin, WeightedRoundRobin, LeastConnection, We
 from edge_device import EdgeDevice
 
 # Настройка логирования
+# для записи логов в файл:
+#logging.basicConfig(filename='simulation.log', filemode='w', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# для выводв логов в консоль:
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
@@ -46,17 +49,46 @@ def save_results_to_csv(nodes, total_created_tasks, total_rejected_tasks, simula
     logging.info(f"Simulation results saved to {filename}")
 
 
+def calc_weights(nodes: list):
+    """Функция для выичлсения веса нода перед запуском теста для отладки"""
+
+    weights = []
+    # считаем ненормализованные веса
+    for node in nodes:
+        flops, delay, bandwidth, fp = (node.compute_power_flops,
+                                       node.delay_seconds,
+                                       node.bandwidth_bytes,
+                                       node.failure_probability)
+        w = (flops + bandwidth) / (delay * 1000 + fp)
+        weights.append(w)
+        print(w)
+
+    normalized_nodes_weights = []
+
+    # Перещитываем веса (нормализуем в диапазон 1-10)
+
+    max_weight = max(weights)
+    min_weight = min(weights)
+
+    for i in range(len(weights)):
+        normalized_weight = 1 + 9 * ((weights[i] - min_weight) / (max_weight - min_weight))
+        normalized_nodes_weights.append(normalized_weight)
+        print(f"Node {i+1} normalized weight = {normalized_weight}")
+
 
 if __name__ == "__main__":
     # Создаем ноды
     nodes = [
-        Node(node_id=1, compute_power_flops=1000, delay_seconds=2, bandwidth_bytes=500, failure_probability=0.1,
+        Node(node_id=1, compute_power_flops=2000, delay_seconds=2, bandwidth_bytes=2000, failure_probability=0.1,
              downtime_seconds=5),
-        Node(node_id=2, compute_power_flops=2000, delay_seconds=1, bandwidth_bytes=1000, failure_probability=0.2,
+        Node(node_id=2, compute_power_flops=1000, delay_seconds=1, bandwidth_bytes=1000, failure_probability=0.2,
              downtime_seconds=3),
-        Node(node_id=3, compute_power_flops=500, delay_seconds=3, bandwidth_bytes=750, failure_probability=0.15,
+        Node(node_id=3, compute_power_flops=500, delay_seconds=3, bandwidth_bytes=500, failure_probability=0.15,
              downtime_seconds=8)
     ]
+
+    calc_weights(nodes)
+
 
     # Устанавливаем start_time для всех нод
     start_time = time.time()
@@ -64,7 +96,7 @@ if __name__ == "__main__":
         node.start_time = start_time
 
     # Создаем дистрибьютор задач
-    distributor = WeightedLeastConnection(nodes)
+    distributor = RoundRobin(nodes)
 
     # Создаем edge-устройства
     devices = [
@@ -100,7 +132,16 @@ if __name__ == "__main__":
                 if random.random() < device.task_generation_frequency:
                     # вообще это некорректно, нужно проверять текущее время и частоты генерации задач устройства
                     task_compute_demand, task_data_size, task_id = device.generate_task()
-                    logging.info(f"Edge Device {device.device_id}: Task {task_id} generated.")
+                    logging.info(f"Edge Device {device.device_id}: Task {task_id} generated. \nParams:\n "
+                                 f"task_compute_demand = {task_compute_demand},\n "
+                                 f"task_data_size = {task_data_size}")
+
+                    #  отладочная информация для отслеживания параметров нод
+                    for node in nodes:
+                        logging.info(f"\n---\nNode {node.node_id}\n"
+                                     f"flops_load = {node.current_load_flops},\n"
+                                     f"network_bytes_load = {node.current_network_load_bytes}\n---")
+
                     distributor.distribute_task(task_compute_demand, task_data_size, task_id)
                     total_created_tasks += 1
 

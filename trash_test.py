@@ -136,27 +136,8 @@ def test_1():
 
 
 if __name__ == "__main__":
-    # weights = [0.4626432664756447, 0.3, 5000]
-    #
-    # min_weight = min(weights)
-    # print(min_weight)
+    Vc = [0,1,2,3,4,4,6]
+    W = [1,2,3,4,5,8,56]
 
-    nodes = [(1000, 2, 500, 0.1),
-             (2000, 1, 1000, 0.2),
-             (500, 3, 750, 0.15)]
-
-    weights = []
-    for n in nodes:
-        flops, delay, bandwidth, fp = n[0], n[1], n[2], n[3]
-
-        w = (flops + bandwidth) / (delay + fp)
-        weights.append(w)
-
-        print(f"node weight: {w}")
-
-    max_w = max(weights)
-    min_w = min(weights)
-
-    for w in weights:
-        normalized_weight = 1 + 9 * ((w - min_w) / (max_w - min_w))
-        print(f"Normalized weight: {normalized_weight}")
+    for i in range(len(Vc)):
+        print(f"WLC = {Vc[i] / W[i]} | {Vc[i]}  {W[i]}")
