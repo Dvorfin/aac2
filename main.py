@@ -11,9 +11,9 @@ from edge_device import EdgeDevice
 
 # Настройка логирования
 # для записи логов в файл:
-#logging.basicConfig(filename='simulation.log', filemode='w', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='simulation.log', filemode='w', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 # для выводв логов в консоль:
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+#logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 def save_results_to_csv(nodes, total_created_tasks, total_rejected_tasks, simulation_duration):
@@ -46,6 +46,16 @@ def save_results_to_csv(nodes, total_created_tasks, total_rejected_tasks, simula
             writer.writerow(["Time (seconds)", "Running Tasks Count"])
             writer.writerows(node.running_tasks_history)
 
+        total_calculated_tasks = 0
+        time.sleep(16)
+        for node in nodes:
+           # print(node.running_tasks_history)
+            print(f"Node {node.node_id} calculated {node.done_tasks_count} tasks")
+            total_calculated_tasks += node.done_tasks_count
+        print(f"Total tasks calculated: {total_calculated_tasks}")
+        print(f"Total created tasks: {total_created_tasks}")
+        print(f"Total rejected tasks: {total_rejected_tasks}")
+
     logging.info(f"Simulation results saved to {filename}")
 
 
@@ -61,7 +71,7 @@ def calc_weights(nodes: list):
                                        node.failure_probability)
         w = (flops + bandwidth) / (delay * 1000 + fp)
         weights.append(w)
-        print(w)
+        print(f"Weight of Node {node.node_id}: {w}")
 
     normalized_nodes_weights = []
 
@@ -79,11 +89,11 @@ def calc_weights(nodes: list):
 if __name__ == "__main__":
     # Создаем ноды
     nodes = [
-        Node(node_id=1, compute_power_flops=2000, delay_seconds=2, bandwidth_bytes=2000, failure_probability=0.1,
+        Node(node_id=1, compute_power_flops=2000, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
              downtime_seconds=5),
-        Node(node_id=2, compute_power_flops=1000, delay_seconds=1, bandwidth_bytes=1000, failure_probability=0.2,
+        Node(node_id=2, compute_power_flops=1000, delay_seconds=0.1, bandwidth_bytes=1000, failure_probability=0.1,
              downtime_seconds=3),
-        Node(node_id=3, compute_power_flops=500, delay_seconds=3, bandwidth_bytes=500, failure_probability=0.15,
+        Node(node_id=3, compute_power_flops=500, delay_seconds=0.1, bandwidth_bytes=500, failure_probability=0.3,
              downtime_seconds=8)
     ]
 
@@ -96,40 +106,66 @@ if __name__ == "__main__":
         node.start_time = start_time
 
     # Создаем дистрибьютор задач
-    distributor = RoundRobin(nodes)
+    distributor = WeightedLeastConnection(nodes)
 
+    # печатаем название класса
+    class_name = type(distributor).__name__
+    print(class_name)
     # Создаем edge-устройства
+    # devices = [
+    #     EdgeDevice(device_id=1, task_compute_demand=300, task_data_size=200, task_generation_frequency=0.5),
+    #     EdgeDevice(device_id=2, task_compute_demand=400, task_data_size=210, task_generation_frequency=0.3),
+    #     EdgeDevice(device_id=3, task_compute_demand=100, task_data_size=200, task_generation_frequency=0.5),
+    #     EdgeDevice(device_id=4, task_compute_demand=40, task_data_size=150, task_generation_frequency=0.3),
+    #     EdgeDevice(device_id=5, task_compute_demand=500, task_data_size=20, task_generation_frequency=0.5),
+    #     EdgeDevice(device_id=6, task_compute_demand=40, task_data_size=300, task_generation_frequency=0.15),
+    #     EdgeDevice(device_id=7, task_compute_demand=150, task_data_size=200, task_generation_frequency=0.1),
+    #     EdgeDevice(device_id=8, task_compute_demand=200, task_data_size=300, task_generation_frequency=0.1),
+    #     EdgeDevice(device_id=9, task_compute_demand=30, task_data_size=20, task_generation_frequency=0.5),
+    #     EdgeDevice(device_id=10, task_compute_demand=40, task_data_size=30, task_generation_frequency=0.3)
+    # ]
+
+    # ну судя по всему частота генерации задач будет задавать количечством устройств
+    # я хз как по другому выкрутить
+    # крч кол-во устройств == кол-во задач в секунду
+    # секунда это с какой частотой симуляция идет, та пауза в виде sleep(1)
     devices = [
-        EdgeDevice(device_id=1, task_compute_demand=300, task_data_size=200, task_generation_frequency=0.5),
-        EdgeDevice(device_id=2, task_compute_demand=400, task_data_size=210, task_generation_frequency=0.3),
-        EdgeDevice(device_id=3, task_compute_demand=100, task_data_size=200, task_generation_frequency=0.5),
-        EdgeDevice(device_id=4, task_compute_demand=40, task_data_size=150, task_generation_frequency=0.3),
-        EdgeDevice(device_id=5, task_compute_demand=500, task_data_size=20, task_generation_frequency=0.5),
-        EdgeDevice(device_id=6, task_compute_demand=40, task_data_size=300, task_generation_frequency=0.15),
-        EdgeDevice(device_id=7, task_compute_demand=150, task_data_size=200, task_generation_frequency=0.1),
-        EdgeDevice(device_id=8, task_compute_demand=200, task_data_size=300, task_generation_frequency=0.1),
-        EdgeDevice(device_id=9, task_compute_demand=30, task_data_size=20, task_generation_frequency=0.5),
-        EdgeDevice(device_id=10, task_compute_demand=40, task_data_size=30, task_generation_frequency=0.3)
+            EdgeDevice(device_id=1, task_compute_demand=500, task_data_size=100, task_generation_frequency=10),
+            EdgeDevice(device_id=1, task_compute_demand=100, task_data_size=100, task_generation_frequency=10),
+            EdgeDevice(device_id=1, task_compute_demand=100, task_data_size=100, task_generation_frequency=10),
+            EdgeDevice(device_id=1, task_compute_demand=100, task_data_size=100, task_generation_frequency=10),
+            EdgeDevice(device_id=1, task_compute_demand=100, task_data_size=100, task_generation_frequency=10),
+            EdgeDevice(device_id=1, task_compute_demand=400, task_data_size=100, task_generation_frequency=10),
+            EdgeDevice(device_id=1, task_compute_demand=500, task_data_size=100, task_generation_frequency=10),
+            EdgeDevice(device_id=1, task_compute_demand=500, task_data_size=100, task_generation_frequency=10)
     ]
 
     # Стартовые метрики
     total_created_tasks = 0
     total_rejected_tasks = 0
-    simulation_duration = 30  # Длительность симуляции в секундах
+    simulation_duration = 20  # Длительность симуляции в секундах
     end_time = start_time + simulation_duration
 
     try:
         while time.time() < end_time:
             current_time = time.time()
             relative_time = current_time - start_time
+            prev_relative_time = relative_time - 0.5
+
 
             # Логирование состояния нод каждую секунду
-            if int(relative_time) != int(relative_time - 1):
+            if int(relative_time) - int(prev_relative_time) >= 0.5:
                 for node in nodes:
+                    prev_relative_time = relative_time
                     node.log_current_state(relative_time)
 
             for device in devices:
-                if random.random() < device.task_generation_frequency:
+                # Логирование состояния нод каждую секунду
+                if int(relative_time) != int(relative_time - 1):
+
+                # if random.random() < device.task_generation_frequency:
+                # if current_time >= device.next_task_time:
+
                     # вообще это некорректно, нужно проверять текущее время и частоты генерации задач устройства
                     task_compute_demand, task_data_size, task_id = device.generate_task()
                     logging.info(f"Edge Device {device.device_id}: Task {task_id} generated. \nParams:\n "
@@ -143,7 +179,8 @@ if __name__ == "__main__":
                                      f"network_bytes_load = {node.current_network_load_bytes}\n---")
 
                     distributor.distribute_task(task_compute_demand, task_data_size, task_id)
-                    total_created_tasks += 1
+
+                total_created_tasks += 1
 
             # Симулируем отключение нод
             for node in nodes:

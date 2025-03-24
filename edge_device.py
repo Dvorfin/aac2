@@ -15,6 +15,11 @@ class EdgeDevice:
         self.task_compute_demand = task_compute_demand
         self.task_data_size = task_data_size
         self.task_generation_frequency = task_generation_frequency
+        self.next_task_time = self.calculate_next_task_time()
+        self.task_id_counter = 0
+
+    def calculate_next_task_time(self):
+        return time.time() + 1 / self.task_generation_frequency
 
     def generate_task(self) -> tuple:
         """
@@ -22,5 +27,8 @@ class EdgeDevice:
 
         :return: Tuple с параметрами задачи (compute_demand, data_size, task_id).
         """
+        self.task_id_counter += 1
+        # Обновляем время следующей генерации задачи
+        self.next_task_time = self.calculate_next_task_time()
         task_id = f"D{self.device_id}_T{int(time.time())}"
         return self.task_compute_demand, self.task_data_size, task_id

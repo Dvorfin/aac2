@@ -156,3 +156,29 @@ for node in average_tasks_on_node.keys():
         f"Average tasks of {node} is {round(sum(average_tasks_on_node[node][0]) / len(average_tasks_on_node[node][0]), 2)} piece")
 
 print(f"Total created tasks: {total_created_tasks}, \nTotal rejected tasks: {total_rejected_tasks}")
+
+
+# Вычисление среднего количества задач
+total_weighted_tasks = 0  # Сумма "время-задачи"
+total_time = 0  # Общая длительность
+
+
+for section, data in node_data.items():
+    if 'Running Tasks History' in section:
+        time = data['Time (seconds)']
+        running_tasks = data['Running Tasks Count']
+
+        print()
+        for i in range(len(time) - 1):
+            t_i = time[i]
+            t_next = time[i+1]
+            n_i = running_tasks[i]
+            n_next = running_tasks[i + 1]
+
+            delta_t = t_next - t_i  # Длительность интервала
+            total_weighted_tasks += n_i * delta_t  # Вклад в "время-задачи"
+            total_time += delta_t  # Вклад в общую длительност
+
+        weighted_avg = total_weighted_tasks / total_time
+
+        print(f"Среднее взвешенное: {weighted_avg:.6f}")

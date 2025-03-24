@@ -144,17 +144,17 @@ class LeastConnection:
             if self.nodes[i].is_available() and self.nodes[i].can_accept_task(task_compute_demand, task_data_size):
                 continue
             else:
-                self.nodes_connections[i] = -1  # если нода недоступна, то ставим ей отрицательное кол-во подключений
+                self.nodes_connections[i] = 5000  # если нода недоступна, то ставим большое число подключений потому что потому
 
         while True:
-            if all(conn == -1 for conn in self.nodes_connections):  # если все ноды заняты или не могут взять задачу
+            if all(conn == 5000 for conn in self.nodes_connections):  # если все ноды заняты или не могут взять задачу
                 logging.error(f"No available nodes to assign task {task_id}. Skipping...")
                 self.rejected_tasks += 1
                 break
 
             min_connections = min(self.nodes_connections)   # определяем минимальное кол-во подключений среди доступных нод
             min_connections_node_index = self.nodes_connections.index(min_connections)  # определяем первый индекс среди доступных нод
-
+            #print(self.nodes_connections, min_connections_node_index)
             # отдаем задачу
             self.nodes[min_connections_node_index].add_task(task_compute_demand, task_data_size, task_id)
 
