@@ -16,6 +16,119 @@ logging.basicConfig(filename='simulation.log', filemode='w', level=logging.INFO,
 #logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
+def calc_tests_results(nodes, total_created_tasks, total_rejected_tasks, simulation_duration):
+
+    print("Nodes params:\n---------")
+    for node in nodes:
+        print("---------")
+        print(f"Node {node.node_id}\nPower flops: {node.compute_power_flops}\n"
+              f"Network bandwidth: {node.bandwidth_bytes}\n"
+              f"Delay before executing task: {node.delay_seconds} sec\n"
+              f"Down time: {node.downtime_seconds} sec")
+        print("---------")
+    print()
+
+    total_calculated_tasks = 0
+
+    print(f"---------")
+    for node in nodes:
+        total_weighted_load = 0
+        total_weighted_network_load = 0
+        total_weighted_tasks_load = 0
+        total_time = 0
+
+        # среднее взвешенное по нагрузке
+        for i in range(len(node.load_history) - 1):  # (0.2052457332611084, 80.0), (0.2057654857635498, 75.0),
+            t_i, l_i = node.load_history[i]
+            t_next, l_next = node.load_history[i+1]
+            delta_t = t_next - t_i  # Длительность интервала
+            total_weighted_load += l_i * delta_t  # Вклад в "время-задачи"
+            total_time += delta_t  # Вклад в общую длительность
+
+        weighted_avg = total_weighted_load / total_time
+        print(f"Weighted load of Node {node.node_id}: {weighted_avg:.4f} %")
+        total_time = 0
+        total_weighted_load = 0
+
+        # среднее взвешенное по нагрузке с учетом активной работы сервера
+        filtered_data = [(t, L) for t, L in node.load_history if L > 0]
+        for i in range(len(filtered_data) - 1):  # (0.2052457332611084, 80.0), (0.2057654857635498, 75.0),
+            t_i, l_i = filtered_data[i]
+            t_next, l_next = filtered_data[i + 1]
+
+            delta_t = t_next - t_i  # Длительность интервала
+            total_weighted_load += l_i * delta_t  # Вклад в "время-задачи"
+            total_time += delta_t  # Вклад в общую длительность
+
+        weighted_avg = total_weighted_load / total_time
+        print(f"Weighted load of active time Node {node.node_id}: {weighted_avg:.4f} %")
+        total_time = 0
+
+        # среднее взвешенное по нагрузке сети
+        for i in range(len(node.network_load_history) - 1):  # (0.2052457332611084, 80.0), (0.2057654857635498, 75.0),
+            t_i, l_i = node.network_load_history[i]
+            t_next, l_next = node.network_load_history[i+1]
+            delta_t = t_next - t_i  # Длительность интервала
+            total_weighted_network_load += l_i * delta_t  # Вклад в "время-задачи"
+            total_time += delta_t  # Вклад в общую длительность
+
+        weighted_avg = total_weighted_network_load / total_time
+        print(f"Weighted network load of Node {node.node_id}: {weighted_avg:.4f} %")
+        total_time = 0
+        total_weighted_network_load = 0
+
+        # среднее взвешенное по нагрузке сети с учетом активной работы сервера
+        filtered_data = [(t, L) for t, L in node.network_load_history if L > 0]
+        for i in range(len(filtered_data) - 1):  # (0.2052457332611084, 80.0), (0.2057654857635498, 75.0),
+            t_i, l_i = filtered_data[i]
+            t_next, l_next = filtered_data[i + 1]
+            delta_t = t_next - t_i  # Длительность интервала
+            total_weighted_network_load += l_i * delta_t  # Вклад в "время-задачи"
+            total_time += delta_t  # Вклад в общую длительность
+
+        weighted_avg = total_weighted_network_load / total_time
+        print(f"Weighted network load of active time Node {node.node_id}: {weighted_avg:.4f} %")
+        total_time = 0
+
+        # среднее взвешенное по количеству задач
+        for i in range(len(node.running_tasks_history) - 1):  # (0.2052457332611084, 80.0), (0.2057654857635498, 75.0),
+            t_i, l_i = node.running_tasks_history[i]
+            t_next, l_next = node.running_tasks_history[i + 1]
+            delta_t = t_next - t_i  # Длительность интервала
+            total_weighted_tasks_load += l_i * delta_t  # Вклад в "время-задачи"
+            total_time += delta_t  # Вклад в общую длительность
+
+        weighted_avg = total_weighted_tasks_load / total_time
+        print(f"Weighted tasks load of Node {node.node_id}: {weighted_avg:.4f} pieces")
+        total_time = 0
+        total_weighted_tasks_load = 0
+
+        # среднее взвешенное по количеству задач с учетом активной работы сервера
+        filtered_data = [(t, L) for t, L in node.running_tasks_history if L > 0]
+        for i in range(len(filtered_data) - 1):  # (0.2052457332611084, 80.0), (0.2057654857635498, 75.0),
+            t_i, l_i = filtered_data[i]
+            t_next, l_next = filtered_data[i + 1]
+            delta_t = t_next - t_i  # Длительность интервала
+            total_weighted_tasks_load += l_i * delta_t  # Вклад в "время-задачи"
+            total_time += delta_t  # Вклад в общую длительность
+
+        weighted_avg = total_weighted_tasks_load / total_time
+        print(f"Weighted tasks load of active time Node {node.node_id}: {weighted_avg:.4f} pieces")
+        total_time = 0
+        total_weighted_tasks_load = 0
+
+        print(f"Node {node.node_id} calculated {node.done_tasks_count} tasks")
+        total_calculated_tasks += node.done_tasks_count
+        print(f"---------")
+
+    print(f"Total tasks calculated: {total_calculated_tasks}")
+    print(f"Total created tasks: {total_created_tasks}")
+    print(f"Total rejected tasks: {total_rejected_tasks}")
+    print(f"Percent of calculated tasks: {(total_calculated_tasks / total_created_tasks) * 100:.4f} %")
+    print(f"RPS = {total_calculated_tasks} / {simulation_duration} = {(total_calculated_tasks / simulation_duration):4f}")
+    print(f"Simulation duration: {simulation_duration}")
+
+
 def save_results_to_csv(nodes, total_created_tasks, total_rejected_tasks, simulation_duration):
     """
     Сохраняет результаты симуляции в CSV-файл.
@@ -46,15 +159,9 @@ def save_results_to_csv(nodes, total_created_tasks, total_rejected_tasks, simula
             writer.writerow(["Time (seconds)", "Running Tasks Count"])
             writer.writerows(node.running_tasks_history)
 
-        total_calculated_tasks = 0
+
         time.sleep(16)
-        for node in nodes:
-           # print(node.running_tasks_history)
-            print(f"Node {node.node_id} calculated {node.done_tasks_count} tasks")
-            total_calculated_tasks += node.done_tasks_count
-        print(f"Total tasks calculated: {total_calculated_tasks}")
-        print(f"Total created tasks: {total_created_tasks}")
-        print(f"Total rejected tasks: {total_rejected_tasks}")
+
 
     logging.info(f"Simulation results saved to {filename}")
 
@@ -86,15 +193,20 @@ def calc_weights(nodes: list):
         print(f"Node {i+1} normalized weight = {normalized_weight}")
 
 
+#  config of simulation
+simulation_duration = 60  # Длительность симуляции в секундах
+
+
+
 if __name__ == "__main__":
     # Создаем ноды
     nodes = [
-        Node(node_id=1, compute_power_flops=2000, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
-             downtime_seconds=5),
-        Node(node_id=2, compute_power_flops=1000, delay_seconds=0.1, bandwidth_bytes=1000, failure_probability=0.1,
-             downtime_seconds=3),
-        Node(node_id=3, compute_power_flops=500, delay_seconds=0.1, bandwidth_bytes=500, failure_probability=0.3,
-             downtime_seconds=8)
+        Node(node_id=1, compute_power_flops=400, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+             downtime_seconds=4),
+        Node(node_id=2, compute_power_flops=399, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+             downtime_seconds=4),
+        Node(node_id=3, compute_power_flops=401, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+             downtime_seconds=4)
     ]
 
     calc_weights(nodes)
@@ -106,7 +218,7 @@ if __name__ == "__main__":
         node.start_time = start_time
 
     # Создаем дистрибьютор задач
-    distributor = WeightedLeastConnection(nodes)
+    distributor = RoundRobin(nodes)
 
     # печатаем название класса
     class_name = type(distributor).__name__
@@ -143,7 +255,7 @@ if __name__ == "__main__":
     # Стартовые метрики
     total_created_tasks = 0
     total_rejected_tasks = 0
-    simulation_duration = 20  # Длительность симуляции в секундах
+
     end_time = start_time + simulation_duration
 
     try:
@@ -194,3 +306,4 @@ if __name__ == "__main__":
     # Сохраняем результаты
     total_rejected_tasks = distributor.rejected_tasks
     save_results_to_csv(nodes, total_created_tasks, total_rejected_tasks, simulation_duration)
+    calc_tests_results(nodes, total_created_tasks, total_rejected_tasks, simulation_duration)

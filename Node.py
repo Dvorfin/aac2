@@ -30,6 +30,7 @@ class Node:
         self.is_down = False
         self.lock = threading.Lock()
         self.task_queue = queue.Queue()
+        self.done_tasks_count = 0   # количество выполненных задач
 
 
         # Для сбора статистики
@@ -99,8 +100,13 @@ class Node:
         execution_time = task_compute_demand / self.compute_power_flops
         logging.info(
             f"Node {self.node_id}: Task {task_id} execution started (compute demand={task_compute_demand} FLOPS).")
+        logging.info(f"Current tasks on Node {self.node_id} is {self.running_tasks_count}")
         time.sleep(execution_time)
-        logging.info(f"Node {self.node_id}: Task {task_id} execution completed.")
+
+        self.done_tasks_count += 1
+        logging.info(f"Node {self.node_id}: Task {task_id} execution completed. Total completed tasks {self.done_tasks_count}")
+
+
 
         # Освобождение ресурсов
         with self.lock:
@@ -108,8 +114,9 @@ class Node:
             self.current_network_load_bytes -= task_data_size
             self.running_tasks_count -= 1
 
+
         # Сохраняем текущую загрузку после завершения задачи
-        #self._log_metrics()
+        self._log_metrics()
 
     def _start_processing(self):
         """
@@ -138,15 +145,11 @@ class Node:
         relative_time = time.time() - self.start_time
         with self.lock:
 
-
             load_in_percent = (self.current_load_flops / self.compute_power_flops) * 100
-            # self.load_history.append((relative_time, self.current_load_flops))
             self.load_history.append((relative_time, load_in_percent))
 
             load_network_in_percent = (self.current_network_load_bytes / self.bandwidth_bytes) * 100
-            # self.network_load_history.append((relative_time, self.current_network_load_bytes))
             self.network_load_history.append((relative_time, load_network_in_percent))
-
 
             self.running_tasks_history.append((relative_time, self.running_tasks_count))
 
@@ -159,12 +162,9 @@ class Node:
         """
         with self.lock:
             load_in_percent = (self.current_load_flops / self.compute_power_flops) * 100
-            #self.load_history.append((relative_time, self.current_load_flops))
             self.load_history.append((relative_time, load_in_percent))
 
             load_network_in_percent = (self.current_network_load_bytes / self.bandwidth_bytes) * 100
-            #self.network_load_history.append((relative_time, self.current_network_load_bytes))
             self.network_load_history.append((relative_time, load_network_in_percent))
-
 
             self.running_tasks_history.append((relative_time, self.running_tasks_count))

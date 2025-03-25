@@ -244,6 +244,8 @@ class WeightedLeastConnection:
         while True:
             if all(conn == 5000 for conn in self.wlc_weight):  # если все ноды заняты или не могут взять задачу
                 logging.error(f"No available nodes to assign task {task_id}. Skipping...")
+                #logging.error(f"No available nodes to assign task {task_id}. Skipping... Weights: {self.wlc_weight} {[self.nodes[i].is_available() for i in range(3)]}")
+                #logging.error(f"Can accept task {[self.nodes[i].can_accept_task(task_compute_demand, task_data_size) for i in range(3)]}")
                 self.rejected_tasks += 1
                 break
 
