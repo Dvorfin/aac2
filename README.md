@@ -7,5 +7,10 @@ Current working version is:
 ---
 - Round Robin works
 - Weighted Round Robin works
-- Least Connections works | вроде да, а вроде полурак получто 
-- Weighted Least Connections works?
+- Least Connections works | починил ебать
+- Weighted Least Connections отвечаю работает 
+---
+Последовательность запуска:
+main.py - проведение симуляции
+vizualize_csv_result.py - для отображаения результат симуляции по взвешенным данным
+visualize_test_2.py - более старая версия считает по среднему не совсем корректно

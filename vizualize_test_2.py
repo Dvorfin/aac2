@@ -193,12 +193,13 @@ total_weighted_tasks = 0  # Сумма "время-задачи"
 total_time = 0  # Общая длительность
 
 
+print()
 for section, data in node_data.items():
     if 'Running Tasks History' in section:
         time = data['Time (seconds)']
         running_tasks = data['Running Tasks Count']
 
-        print()
+
         for i in range(len(time) - 1):
             t_i = time[i]
             t_next = time[i+1]

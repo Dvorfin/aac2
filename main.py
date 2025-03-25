@@ -16,7 +16,99 @@ logging.basicConfig(filename='simulation.log', filemode='w', level=logging.INFO,
 #logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
+def save_data_to_csv(nodes):
+    """Похоже на функцию calc_tests_results, но с сохранением данных в csv"""
+
+    node_data = []      # список, который будет записываться в csv
+
+    for node in nodes:
+        current_node_data = {}
+
+        total_weighted_load = 0
+        total_weighted_network_load = 0
+        total_weighted_tasks_load = 0
+        total_time = 0
+
+        current_node_data['Node'] = node.node_id
+
+        # среднее взвешенное по нагрузке с учетом активной работы сервера
+        filtered_data = [(t, L) for t, L in node.load_history if L > 0]
+        for i in range(len(filtered_data) - 1):  # (0.2052457332611084, 80.0), (0.2057654857635498, 75.0),
+            t_i, l_i = filtered_data[i]
+            t_next, l_next = filtered_data[i + 1]
+
+            delta_t = t_next - t_i  # Длительность интервала
+            total_weighted_load += l_i * delta_t  # Вклад в "время-задачи"
+            total_time += delta_t  # Вклад в общую длительность
+
+        if total_weighted_load == 0:
+            current_node_data['Weighted Load (%)'] = 0
+        else:
+            weighted_avg = total_weighted_load / total_time
+            current_node_data['Weighted Load (%)'] = round(weighted_avg, 4)
+
+        total_time = 0
+
+        # среднее взвешенное по нагрузке сети с учетом активной работы сервера
+        filtered_data = [(t, L) for t, L in node.network_load_history if L > 0]
+        for i in range(len(filtered_data) - 1):  # (0.2052457332611084, 80.0), (0.2057654857635498, 75.0),
+            t_i, l_i = filtered_data[i]
+            t_next, l_next = filtered_data[i + 1]
+            delta_t = t_next - t_i  # Длительность интервала
+            total_weighted_network_load += l_i * delta_t  # Вклад в "время-задачи"
+            total_time += delta_t  # Вклад в общую длительность
+
+        if total_weighted_network_load == 0:
+            current_node_data['Weighted Network Load (%)'] = 0
+        else:
+            weighted_avg = total_weighted_network_load / total_time
+            current_node_data['Weighted Network Load (%)'] = round(weighted_avg, 4)
+
+        total_time = 0
+
+        # среднее взвешенное по количеству задач с учетом активной работы сервера
+        filtered_data = [(t, L) for t, L in node.running_tasks_history if L > 0]
+        for i in range(len(filtered_data) - 1):  # (0.2052457332611084, 80.0), (0.2057654857635498, 75.0),
+            t_i, l_i = filtered_data[i]
+            t_next, l_next = filtered_data[i + 1]
+            delta_t = t_next - t_i  # Длительность интервала
+            total_weighted_tasks_load += l_i * delta_t  # Вклад в "время-задачи"
+            total_time += delta_t  # Вклад в общую длительность
+
+        if total_weighted_tasks_load == 0:
+            current_node_data['Weighted Tasks Load (pieces)'] = 0
+        else:
+            weighted_avg = total_weighted_tasks_load / total_time
+            current_node_data['Weighted Tasks Load (pieces)'] = round(weighted_avg, 4)
+
+        current_node_data['Total Calculated Tasks'] = node.done_tasks_count
+        node_data.append(current_node_data)
+
+    # Имя файла для сохранения
+    filename = "node_results.csv"
+
+    # Запись данных в CSV
+    with open(filename, mode="w", newline="", encoding="utf-8") as file:
+        # Определяем заголовки
+        fieldnames = ["Node", "Weighted Load (%)", "Weighted Network Load (%)",
+                      "Weighted Tasks Load (pieces)", "Total Calculated Tasks"]
+
+        # Создаем объект writer
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+
+        # Записываем заголовки
+        writer.writeheader()
+
+        # Записываем данные для каждой ноды
+        for data in node_data:
+            writer.writerow(data)
+
+    print(f"Данные успешно сохранены в файл: {filename}")
+
+
 def calc_tests_results(nodes, total_created_tasks, total_rejected_tasks, simulation_duration):
+    """Функция отписывает результаты в консоль"""
+    total_weighted_load_list = []       # нагрузка серверов в активное время
 
     print("Nodes params:\n---------")
     for node in nodes:
@@ -65,8 +157,10 @@ def calc_tests_results(nodes, total_created_tasks, total_rejected_tasks, simulat
 
         if total_weighted_load == 0:
             print(f"Weighted load of active time Node {node.node_id}: 0 %")
+            total_weighted_load_list.append(0)
         else:
             weighted_avg = total_weighted_load / total_time
+            total_weighted_load_list.append(round(weighted_avg, 4))
             print(f"Weighted load of active time Node {node.node_id}: {weighted_avg:.4f} %")
         total_time = 0
 
@@ -145,6 +239,8 @@ def calc_tests_results(nodes, total_created_tasks, total_rejected_tasks, simulat
     print(f"Percent of calculated tasks: {(total_calculated_tasks / total_created_tasks) * 100:.4f} %")
     print(f"RPS = {total_calculated_tasks} / {simulation_duration} = {(total_calculated_tasks / simulation_duration):4f}")
     print(f"Simulation duration: {simulation_duration}")
+    print(total_weighted_load_list)
+
 
 
 def save_results_to_csv(nodes, total_created_tasks, total_rejected_tasks, simulation_duration):
@@ -212,32 +308,32 @@ def calc_weights(nodes: list):
 
 
 #  config of simulation
-simulation_duration = 60  # Длительность симуляции в секундах
+simulation_duration = 15  # Длительность симуляции в секундах
 
 
 
 if __name__ == "__main__":
     # Создаем ноды
     nodes = [
-        Node(node_id=1, compute_power_flops=406, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+        Node(node_id=1, compute_power_flops=1000, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
              downtime_seconds=4),
         Node(node_id=2, compute_power_flops=405, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
              downtime_seconds=4),
         Node(node_id=3, compute_power_flops=404, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
              downtime_seconds=4),
-        Node(node_id=4, compute_power_flops=403, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+        Node(node_id=4, compute_power_flops=403, delay_seconds=0.1, bandwidth_bytes=1500, failure_probability=0.2,
              downtime_seconds=4),
-        Node(node_id=5, compute_power_flops=402, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+        Node(node_id=5, compute_power_flops=800, delay_seconds=0.1, bandwidth_bytes=1000, failure_probability=0.2,
              downtime_seconds=4),
-        Node(node_id=6, compute_power_flops=401, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+        Node(node_id=6, compute_power_flops=1000, delay_seconds=0.1, bandwidth_bytes=500, failure_probability=0.2,
              downtime_seconds=4),
-        Node(node_id=7, compute_power_flops=400, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+        Node(node_id=7, compute_power_flops=820, delay_seconds=0.1, bandwidth_bytes=600, failure_probability=0.2,
              downtime_seconds=4),
-        Node(node_id=8, compute_power_flops=399, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+        Node(node_id=8, compute_power_flops=920, delay_seconds=0.1, bandwidth_bytes=1000, failure_probability=0.2,
              downtime_seconds=4),
-        Node(node_id=9, compute_power_flops=398, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+        Node(node_id=9, compute_power_flops=700, delay_seconds=0.1, bandwidth_bytes=700, failure_probability=0.2,
              downtime_seconds=4),
-        Node(node_id=10, compute_power_flops=397, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+        Node(node_id=10, compute_power_flops=880, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
              downtime_seconds=4),
         Node(node_id=11, compute_power_flops=396, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
              downtime_seconds=4),
@@ -279,13 +375,15 @@ if __name__ == "__main__":
     # секунда это с какой частотой симуляция идет, та пауза в виде sleep(1)
     devices = [
             EdgeDevice(device_id=1, task_compute_demand=500, task_data_size=100, task_generation_frequency=10),
-            EdgeDevice(device_id=1, task_compute_demand=100, task_data_size=100, task_generation_frequency=10),
-            EdgeDevice(device_id=1, task_compute_demand=100, task_data_size=100, task_generation_frequency=10),
-            EdgeDevice(device_id=1, task_compute_demand=100, task_data_size=100, task_generation_frequency=10),
-            EdgeDevice(device_id=1, task_compute_demand=100, task_data_size=100, task_generation_frequency=10),
+            EdgeDevice(device_id=1, task_compute_demand=200, task_data_size=100, task_generation_frequency=10),
+            EdgeDevice(device_id=1, task_compute_demand=200, task_data_size=100, task_generation_frequency=10),
+            EdgeDevice(device_id=1, task_compute_demand=200, task_data_size=100, task_generation_frequency=10),
+            EdgeDevice(device_id=1, task_compute_demand=200, task_data_size=100, task_generation_frequency=10),
             EdgeDevice(device_id=1, task_compute_demand=400, task_data_size=100, task_generation_frequency=10),
-            EdgeDevice(device_id=1, task_compute_demand=500, task_data_size=100, task_generation_frequency=10),
-            EdgeDevice(device_id=1, task_compute_demand=500, task_data_size=100, task_generation_frequency=10)
+            EdgeDevice(device_id=1, task_compute_demand=100, task_data_size=100, task_generation_frequency=10),
+            EdgeDevice(device_id=1, task_compute_demand=100, task_data_size=100, task_generation_frequency=10),
+            EdgeDevice(device_id=1, task_compute_demand=100, task_data_size=100, task_generation_frequency=10),
+            EdgeDevice(device_id=1, task_compute_demand=100, task_data_size=100, task_generation_frequency=10)
     ]
 
     # Стартовые метрики
@@ -328,13 +426,13 @@ if __name__ == "__main__":
 
                     distributor.distribute_task(task_compute_demand, task_data_size, task_id)
 
-                total_created_tasks += 1
+                    total_created_tasks += 1
 
             # Симулируем отключение нод
             for node in nodes:
                 threading.Thread(target=node.simulate_failure).start()
 
-            time.sleep(1)  # Пауза между итерациями симуляции
+            time.sleep(0.25)  # Пауза между итерациями симуляции
 
     except KeyboardInterrupt:
         logging.info("Simulation stopped by user.")
@@ -343,3 +441,5 @@ if __name__ == "__main__":
     total_rejected_tasks = distributor.rejected_tasks
     save_results_to_csv(nodes, total_created_tasks, total_rejected_tasks, simulation_duration)
     calc_tests_results(nodes, total_created_tasks, total_rejected_tasks, simulation_duration)
+
+    save_data_to_csv(nodes)
