@@ -41,6 +41,16 @@ plt.xlabel('Время (секунды)', fontweight='bold')
 plt.ylabel('Загрузка (FLOPS)', fontweight='bold')
 plt.legend()
 plt.grid(True)
+# Размещение легенды справа от графика
+plt.legend(
+    loc='center left',          # Расположение легенды относительно якоря
+    bbox_to_anchor=(1.02, 0.5), # Координаты якоря (x, y)
+    borderaxespad=0,            # Расстояние между легендой и графиком
+    fontsize=10                 # Размер шрифта в легенде
+)
+
+# Показать график
+plt.tight_layout()  # Автоматическая настройка макета
 plt.show()
 
 
@@ -59,6 +69,16 @@ plt.xlabel('Время (секунды)', fontweight='bold')
 plt.ylabel('Загрузка сети (Байты)', fontweight='bold')
 plt.legend()
 plt.grid(True)
+# Размещение легенды справа от графика
+plt.legend(
+    loc='center left',          # Расположение легенды относительно якоря
+    bbox_to_anchor=(1.02, 0.5), # Координаты якоря (x, y)
+    borderaxespad=0,            # Расстояние между легендой и графиком
+    fontsize=10                 # Размер шрифта в легенде
+)
+
+# Показать график
+plt.tight_layout()  # Автоматическая настройка макета
 plt.show()
 
 
@@ -82,6 +102,16 @@ plt.xlabel('Время (секунды)', fontweight='bold')
 plt.ylabel('Количество задач', fontweight='bold')
 plt.legend()
 plt.grid(True)
+# Размещение легенды справа от графика
+plt.legend(
+    loc='center left',          # Расположение легенды относительно якоря
+    bbox_to_anchor=(1.02, 0.5), # Координаты якоря (x, y)
+    borderaxespad=0,            # Расстояние между легендой и графиком
+    fontsize=10                 # Размер шрифта в легенде
+)
+
+# Показать график
+plt.tight_layout()  # Автоматическая настройка макета
 plt.show()
 
 

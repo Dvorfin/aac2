@@ -45,8 +45,11 @@ def calc_tests_results(nodes, total_created_tasks, total_rejected_tasks, simulat
             total_weighted_load += l_i * delta_t  # Вклад в "время-задачи"
             total_time += delta_t  # Вклад в общую длительность
 
-        weighted_avg = total_weighted_load / total_time
-        print(f"Weighted load of Node {node.node_id}: {weighted_avg:.4f} %")
+        if total_weighted_load == 0:
+            print(f"Weighted load of Node {node.node_id}: 0 %")
+        else:
+            weighted_avg = total_weighted_load / total_time
+            print(f"Weighted load of Node {node.node_id}: {weighted_avg:.4f} %")
         total_time = 0
         total_weighted_load = 0
 
@@ -60,8 +63,11 @@ def calc_tests_results(nodes, total_created_tasks, total_rejected_tasks, simulat
             total_weighted_load += l_i * delta_t  # Вклад в "время-задачи"
             total_time += delta_t  # Вклад в общую длительность
 
-        weighted_avg = total_weighted_load / total_time
-        print(f"Weighted load of active time Node {node.node_id}: {weighted_avg:.4f} %")
+        if total_weighted_load == 0:
+            print(f"Weighted load of active time Node {node.node_id}: 0 %")
+        else:
+            weighted_avg = total_weighted_load / total_time
+            print(f"Weighted load of active time Node {node.node_id}: {weighted_avg:.4f} %")
         total_time = 0
 
         # среднее взвешенное по нагрузке сети
@@ -72,8 +78,11 @@ def calc_tests_results(nodes, total_created_tasks, total_rejected_tasks, simulat
             total_weighted_network_load += l_i * delta_t  # Вклад в "время-задачи"
             total_time += delta_t  # Вклад в общую длительность
 
-        weighted_avg = total_weighted_network_load / total_time
-        print(f"Weighted network load of Node {node.node_id}: {weighted_avg:.4f} %")
+        if total_weighted_network_load == 0:
+            print(f"Weighted network load of Node {node.node_id}: 0 %")
+        else:
+            weighted_avg = total_weighted_network_load / total_time
+            print(f"Weighted network load of Node {node.node_id}: {weighted_avg:.4f} %")
         total_time = 0
         total_weighted_network_load = 0
 
@@ -86,8 +95,11 @@ def calc_tests_results(nodes, total_created_tasks, total_rejected_tasks, simulat
             total_weighted_network_load += l_i * delta_t  # Вклад в "время-задачи"
             total_time += delta_t  # Вклад в общую длительность
 
-        weighted_avg = total_weighted_network_load / total_time
-        print(f"Weighted network load of active time Node {node.node_id}: {weighted_avg:.4f} %")
+        if total_weighted_network_load == 0:
+            print(f"Weighted network load of active time Node {node.node_id}: 0 %")
+        else:
+            weighted_avg = total_weighted_network_load / total_time
+            print(f"Weighted network load of active time Node {node.node_id}: {weighted_avg:.4f} %")
         total_time = 0
 
         # среднее взвешенное по количеству задач
@@ -98,8 +110,11 @@ def calc_tests_results(nodes, total_created_tasks, total_rejected_tasks, simulat
             total_weighted_tasks_load += l_i * delta_t  # Вклад в "время-задачи"
             total_time += delta_t  # Вклад в общую длительность
 
-        weighted_avg = total_weighted_tasks_load / total_time
-        print(f"Weighted tasks load of Node {node.node_id}: {weighted_avg:.4f} pieces")
+        if total_weighted_tasks_load == 0:
+            print(f"Weighted tasks load of Node {node.node_id}: 0 pieces")
+        else:
+            weighted_avg = total_weighted_tasks_load / total_time
+            print(f"Weighted tasks load of Node {node.node_id}: {weighted_avg:.4f} pieces")
         total_time = 0
         total_weighted_tasks_load = 0
 
@@ -112,8 +127,11 @@ def calc_tests_results(nodes, total_created_tasks, total_rejected_tasks, simulat
             total_weighted_tasks_load += l_i * delta_t  # Вклад в "время-задачи"
             total_time += delta_t  # Вклад в общую длительность
 
-        weighted_avg = total_weighted_tasks_load / total_time
-        print(f"Weighted tasks load of active time Node {node.node_id}: {weighted_avg:.4f} pieces")
+        if total_weighted_tasks_load == 0:
+            print(f"Weighted tasks load of active time Node {node.node_id}: 0 pieces")
+        else:
+            weighted_avg = total_weighted_tasks_load / total_time
+            print(f"Weighted tasks load of active time Node {node.node_id}: {weighted_avg:.4f} pieces")
         total_time = 0
         total_weighted_tasks_load = 0
 
@@ -201,11 +219,29 @@ simulation_duration = 60  # Длительность симуляции в се�
 if __name__ == "__main__":
     # Создаем ноды
     nodes = [
-        Node(node_id=1, compute_power_flops=400, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+        Node(node_id=1, compute_power_flops=406, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
              downtime_seconds=4),
-        Node(node_id=2, compute_power_flops=399, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+        Node(node_id=2, compute_power_flops=405, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
              downtime_seconds=4),
-        Node(node_id=3, compute_power_flops=401, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+        Node(node_id=3, compute_power_flops=404, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+             downtime_seconds=4),
+        Node(node_id=4, compute_power_flops=403, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+             downtime_seconds=4),
+        Node(node_id=5, compute_power_flops=402, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+             downtime_seconds=4),
+        Node(node_id=6, compute_power_flops=401, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+             downtime_seconds=4),
+        Node(node_id=7, compute_power_flops=400, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+             downtime_seconds=4),
+        Node(node_id=8, compute_power_flops=399, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+             downtime_seconds=4),
+        Node(node_id=9, compute_power_flops=398, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+             downtime_seconds=4),
+        Node(node_id=10, compute_power_flops=397, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+             downtime_seconds=4),
+        Node(node_id=11, compute_power_flops=396, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
+             downtime_seconds=4),
+        Node(node_id=12, compute_power_flops=395, delay_seconds=0.1, bandwidth_bytes=2000, failure_probability=0.2,
              downtime_seconds=4)
     ]
 
