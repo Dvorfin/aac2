@@ -14,3 +14,8 @@ Current working version is:
 main.py - проведение симуляции
 vizualize_csv_result.py - для отображаения результат симуляции по взвешенным данным
 visualize_test_2.py - более старая версия считает по среднему не совсем корректно
+
+----
+save_data_to_csv_all_active_time - сохранение данных в csv просто средних значений
+save_weighted_data_to_csv_all_active_time - сохранение данных в csv взвешенных значений за все время теста
+save_weighted_data_to_csv - сохранение данных в csv взвешенных значений только за активное время работы серверов
