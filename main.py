@@ -15,7 +15,7 @@ logging.basicConfig(filename='simulation.log', filemode='w', level=logging.INFO,
 # для выводв логов в консоль:
 #logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-
+#
 def save_data_to_csv(nodes):
     """Похоже на функцию calc_tests_results, но с сохранением данных в csv"""
 

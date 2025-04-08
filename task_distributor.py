@@ -45,7 +45,7 @@ class WeightedRoundRobin:
         :param task_data_size: Объем данных задачи (байты).
         :param task_id: Идентификатор задачи.
         """
-
+#
         # перещитываем веса нод
         self.normalize_node_weights()
 

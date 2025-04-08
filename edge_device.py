@@ -1,5 +1,5 @@
 import time
-
+#
 class EdgeDevice:
     def __init__(self, device_id: int, task_compute_demand: float, task_data_size: float,
                  task_generation_frequency: float):

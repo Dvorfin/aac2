@@ -35,7 +35,7 @@ for section, data in node_data.items():
         load = data['Load (FLOPS)']
         plt.plot(time, load, label=section)
 
-
+#
 plt.title('Загрузка вычислительной мощности нод со временем', fontweight='bold')
 plt.xlabel('Время (секунды)', fontweight='bold')
 plt.ylabel('Загрузка (FLOPS)', fontweight='bold')

@@ -9,7 +9,7 @@ class Node:
                  bandwidth_bytes: float, failure_probability: float,
                  downtime_seconds: float):
         """
-        Класс вычислительной ноды.
+   #     Класс вычислительной ноды.
 
         :param node_id: Номер ноды.
         :param compute_power_flops: Мощность ноды в FLOPS.

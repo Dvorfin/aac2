@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # Чтение данных из CSV-файла
 filename = "node_results.csv"
 data = pd.read_csv(filename)
-
+#
 # Создание столбчатых диаграмм для каждого параметра
 parameters = [
     "Weighted Load (%)",
